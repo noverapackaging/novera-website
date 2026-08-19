@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Netlify Identity + Git Gateway power the /admin CMS login.
+# Enable both in the Netlify dashboard (Site configuration > Identity)
+# — see README.md > "Deploy & connect the CMS" for the exact steps.
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

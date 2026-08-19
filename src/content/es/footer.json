@@ -1,0 +1,13 @@
+{
+  "companyName": "NOVERA",
+  "tagline": "El packaging que eleva tu marca",
+  "addressLines": ["12 rue de la Matière", "69000 Lyon, Francia"],
+  "email": "contact@novera.fr",
+  "phone": "+33 4 00 00 00 00",
+  "legal": {
+    "line1": "NOVERA SAS, capital social de 10.000 €",
+    "line2": "RCS Lyon 993 491 729",
+    "line3": "NIF-IVA FR43993491729"
+  },
+  "copyright": "© {year} NOVERA. Todos los derechos reservados."
+}

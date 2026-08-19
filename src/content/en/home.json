@@ -1,0 +1,82 @@
+{
+  "seoTitle": "NOVERA — Premium Packaging Sourcing & Supply",
+  "seoDescription": "NOVERA helps spirits, food, fragrance and cosmetics brands source premium packaging: glass, closures, capsules and wood.",
+  "hero": {
+    "eyebrow": "NOVERA",
+    "headline": "Elevating brands through packaging",
+    "intro": "We source and supply the premium packaging components that bring your products to life — from glass to closures, capsules and wood.",
+    "ctaLabel": "Contact",
+    "ctaHref": "/en/services/#contact"
+  },
+  "whatWeDo": {
+    "heading": "What we do",
+    "items": [
+      {
+        "label": "MATERIALS",
+        "description": "A network of suppliers selected for the quality and reliability of their raw materials."
+      },
+      {
+        "label": "DESIGN",
+        "description": "Creative support to translate your brand identity into a packaging object."
+      },
+      {
+        "label": "SOLUTIONS",
+        "description": "End-to-end project management, from brief to delivery."
+      }
+    ]
+  },
+  "values": {
+    "heading": "Our values",
+    "items": [
+      {
+        "title": "International",
+        "description": "A network of suppliers and partners spanning several continents.",
+        "icon": "globe"
+      },
+      {
+        "title": "Excellence",
+        "description": "A constant standard of quality in materials and finish.",
+        "icon": "star"
+      },
+      {
+        "title": "Reactivity",
+        "description": "Teams that are available, with well-managed lead times at every step.",
+        "icon": "bolt"
+      },
+      {
+        "title": "Sustainability",
+        "description": "Material and process choices designed to reduce our impact.",
+        "icon": "leaf"
+      }
+    ]
+  },
+  "story": {
+    "text": "It all starts with matter. From sand comes glass, from glass comes the bottle."
+  },
+  "sectors": {
+    "heading": "Sectors we serve",
+    "items": [
+      {
+        "name": "Spirits",
+        "description": "Bottles and closures for spirits houses and distilleries."
+      },
+      {
+        "name": "Food",
+        "description": "Glass containers for fine grocery and gourmet products."
+      },
+      {
+        "name": "Fragrance & Cosmetics",
+        "description": "Flacons and accessories for beauty and fragrance brands."
+      }
+    ]
+  },
+  "families": {
+    "heading": "Product families",
+    "items": [
+      { "name": "Glass", "description": "Custom or catalogue bottles and flacons." },
+      { "name": "Closures", "description": "Corks, screw caps and closure systems." },
+      { "name": "Capsules", "description": "Customisable PVC and shrink capsules." },
+      { "name": "Wood", "description": "Wooden tops and elements for a premium finish." }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+---
+import type { Locale } from '../i18n/locales';
+
+interface Props {
+  locale: Locale;
+  footer: {
+    companyName: string;
+    tagline: string;
+    addressLines: string[];
+    email: string;
+    phone: string;
+    legal: { line1: string; line2: string; line3: string };
+    copyright: string;
+  };
+  nav: { home: string; services: string; contact: string };
+}
+const { locale, footer, nav } = Astro.props;
+const copyright = footer.copyright.replace('{year}', String(new Date().getFullYear()));
+---
+
+<footer class="bg-deep-eucalyptus text-warm-ivory">
+  <div class="mx-auto grid max-w-content gap-10 px-6 py-14 md:grid-cols-4">
+    <div class="md:col-span-2">
+      <p class="font-display text-lg">{footer.companyName}</p>
+      <p class="mt-2 max-w-sm text-sm text-warm-ivory/70">{footer.tagline}</p>
+    </div>
+
+    <div class="text-sm">
+      <p class="font-display uppercase tracking-wide text-sand">{nav.contact}</p>
+      <address class="mt-3 not-italic leading-relaxed text-warm-ivory/80">
+        {footer.addressLines.map((line) => <span class="block">{line}</span>)}
+        <a href={`mailto:${footer.email}`} class="mt-2 block hover:text-bronze">{footer.email}</a>
+        <a href={`tel:${footer.phone.replace(/\s+/g, '')}`} class="block hover:text-bronze">{footer.phone}</a>
+      </address>
+    </div>
+
+    <div class="text-sm">
+      <nav aria-label={nav.home} class="flex flex-col gap-2">
+        <a href={`/${locale}/`} class="hover:text-bronze">{nav.home}</a>
+        <a href={`/${locale}/services/`} class="hover:text-bronze">{nav.services}</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="border-t border-warm-ivory/10">
+    <div class="mx-auto flex max-w-content flex-col gap-1 px-6 py-6 text-xs text-warm-ivory/60 md:flex-row md:items-center md:justify-between">
+      <p>{copyright}</p>
+      <p>{footer.legal.line1} — {footer.legal.line2} — {footer.legal.line3}</p>
+    </div>
+  </div>
+</footer>

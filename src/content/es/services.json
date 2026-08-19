@@ -1,0 +1,58 @@
+{
+  "seoTitle": "Servicios — NOVERA",
+  "seoDescription": "Sourcing, diseño y logística: descubra cómo NOVERA gestiona su proyecto de packaging de principio a fin.",
+  "hero": {
+    "heading": "Nuestros servicios",
+    "intro": "Desde la materia prima hasta la entrega, nos encargamos de cada etapa de vuestro proyecto de packaging."
+  },
+  "process": {
+    "heading": "De la fuente a la solución",
+    "items": [
+      {
+        "title": "Sourcing",
+        "description": "Identificación y selección de los proveedores más adecuados para vuestro briefing, volúmenes y presupuesto."
+      },
+      {
+        "title": "Diseño",
+        "description": "Acompañamiento en la forma, el material y el acabado para un packaging fiel a vuestra identidad de marca."
+      },
+      {
+        "title": "Logística",
+        "description": "Coordinación del transporte, los plazos y el almacenamiento para una entrega fiable, estéis donde estéis."
+      }
+    ]
+  },
+  "families": {
+    "heading": "Familias de producto",
+    "items": [
+      {
+        "title": "Componentes de vidrio",
+        "description": "Botellas, frascos y tarros de catálogo o a medida, en una amplia gama de colores y acabados."
+      },
+      {
+        "title": "Cierres",
+        "description": "Tapones de corcho y sintéticos, cápsulas roscadas, sistemas de cierre para cada envase."
+      },
+      {
+        "title": "Cápsulas de PVC / termorretráctiles",
+        "description": "Cápsulas de sellado personalizables, impresas en vuestros colores, para un acabado cuidado."
+      },
+      {
+        "title": "Remates de madera",
+        "description": "Elementos de madera natural o lacada para un toque premium y sostenible en vuestro cierre."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Hablemos de vuestro proyecto",
+    "description": "¿Una pregunta, un briefing, una solicitud de presupuesto? Escribidnos, nuestro equipo responde en un plazo de 48 horas.",
+    "formLabels": {
+      "name": "Nombre",
+      "company": "Empresa",
+      "email": "Email",
+      "message": "Mensaje",
+      "submit": "Enviar"
+    },
+    "successMessage": "Gracias, vuestro mensaje ha sido enviado."
+  }
+}

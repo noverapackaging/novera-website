@@ -1,0 +1,82 @@
+{
+  "seoTitle": "NOVERA — Sourcing y suministro de packaging premium",
+  "seoDescription": "NOVERA acompaña a marcas de bebidas espirituosas, alimentación, perfumería y cosmética en el sourcing de su packaging: vidrio, cierres, cápsulas y madera.",
+  "hero": {
+    "eyebrow": "NOVERA",
+    "headline": "El packaging que eleva tu marca",
+    "intro": "Buscamos y suministramos los componentes de packaging premium que dan vida a vuestros productos — del vidrio a los cierres, pasando por las cápsulas y la madera.",
+    "ctaLabel": "Contacto",
+    "ctaHref": "/es/services/#contact"
+  },
+  "whatWeDo": {
+    "heading": "Qué hacemos",
+    "items": [
+      {
+        "label": "MATERIALES",
+        "description": "Una red de proveedores seleccionados por la calidad y fiabilidad de sus materias primas."
+      },
+      {
+        "label": "DISEÑO",
+        "description": "Un acompañamiento creativo para traducir la identidad de vuestra marca en un objeto de packaging."
+      },
+      {
+        "label": "SOLUCIONES",
+        "description": "Una gestión de proyecto de principio a fin, desde el briefing hasta la entrega."
+      }
+    ]
+  },
+  "values": {
+    "heading": "Nuestros valores",
+    "items": [
+      {
+        "title": "Internacional",
+        "description": "Una red de proveedores y socios presentes en varios continentes.",
+        "icon": "globe"
+      },
+      {
+        "title": "Excelencia",
+        "description": "Una exigencia constante sobre la calidad de los materiales y el acabado.",
+        "icon": "star"
+      },
+      {
+        "title": "Reactividad",
+        "description": "Equipos disponibles y plazos controlados en cada etapa del proyecto.",
+        "icon": "bolt"
+      },
+      {
+        "title": "Sostenibilidad",
+        "description": "Elecciones de materiales y procesos pensadas para reducir nuestro impacto.",
+        "icon": "leaf"
+      }
+    ]
+  },
+  "story": {
+    "text": "Todo empieza con la materia. De la arena nace el vidrio, del vidrio nace la botella."
+  },
+  "sectors": {
+    "heading": "Sectores a los que servimos",
+    "items": [
+      {
+        "name": "Bebidas espirituosas",
+        "description": "Botellas y cierres para casas de bebidas espirituosas y destilerías."
+      },
+      {
+        "name": "Alimentación",
+        "description": "Envases de vidrio para productos gourmet y de alta gama."
+      },
+      {
+        "name": "Perfumería y cosmética",
+        "description": "Frascos y accesorios para marcas de belleza y perfumería."
+      }
+    ]
+  },
+  "families": {
+    "heading": "Familias de producto",
+    "items": [
+      { "name": "Vidrio", "description": "Botellas y frascos a medida o de catálogo." },
+      { "name": "Cierres", "description": "Tapones, cápsulas roscadas y sistemas de cierre." },
+      { "name": "Cápsulas", "description": "Cápsulas de PVC y termorretráctiles, personalizables." },
+      { "name": "Madera", "description": "Remates y elementos de madera para un acabado premium." }
+    ]
+  }
+}

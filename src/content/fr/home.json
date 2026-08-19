@@ -1,0 +1,82 @@
+{
+  "seoTitle": "NOVERA — Sourcing & fourniture de packaging premium",
+  "seoDescription": "NOVERA accompagne les marques de spiritueux, alimentaire, parfum et cosmétique dans le sourcing de leur packaging : verre, bouchage, capsules et bois.",
+  "hero": {
+    "eyebrow": "NOVERA",
+    "headline": "Le packaging qui élève votre marque",
+    "intro": "Nous sourçons et fournissons les composants de packaging premium qui donnent vie à vos produits — du verre au bouchage, en passant par le bois et les capsules.",
+    "ctaLabel": "Contact",
+    "ctaHref": "/fr/services/#contact"
+  },
+  "whatWeDo": {
+    "heading": "Ce que nous faisons",
+    "items": [
+      {
+        "label": "MATIÈRES",
+        "description": "Un réseau de fournisseurs sélectionnés pour la qualité et la fiabilité de leurs matières premières."
+      },
+      {
+        "label": "DESIGN",
+        "description": "Un accompagnement créatif pour traduire l'identité de votre marque en objet packaging."
+      },
+      {
+        "label": "SOLUTIONS",
+        "description": "Une gestion de projet de bout en bout, du cahier des charges à la livraison."
+      }
+    ]
+  },
+  "values": {
+    "heading": "Nos valeurs",
+    "items": [
+      {
+        "title": "International",
+        "description": "Un réseau de fournisseurs et de partenaires présents sur plusieurs continents.",
+        "icon": "globe"
+      },
+      {
+        "title": "Excellence",
+        "description": "Une exigence constante sur la qualité des matières et de la finition.",
+        "icon": "star"
+      },
+      {
+        "title": "Réactivité",
+        "description": "Des équipes disponibles et des délais maîtrisés à chaque étape du projet.",
+        "icon": "bolt"
+      },
+      {
+        "title": "Durabilité",
+        "description": "Des choix de matières et de process pensés pour réduire notre impact.",
+        "icon": "leaf"
+      }
+    ]
+  },
+  "story": {
+    "text": "Tout commence par la matière. Du sable naît le verre, du verre naît la bouteille."
+  },
+  "sectors": {
+    "heading": "Secteurs que nous servons",
+    "items": [
+      {
+        "name": "Spiritueux",
+        "description": "Bouteilles et bouchage pour maisons de spiritueux et distilleries."
+      },
+      {
+        "name": "Alimentaire",
+        "description": "Contenants en verre pour l'épicerie fine et les produits gourmets."
+      },
+      {
+        "name": "Parfum & Cosmétique",
+        "description": "Flaconnage et accessoires pour les marques de beauté et de parfumerie."
+      }
+    ]
+  },
+  "families": {
+    "heading": "Familles de produits",
+    "items": [
+      { "name": "Verre", "description": "Bouteilles et flacons sur-mesure ou sur catalogue." },
+      { "name": "Bouchage", "description": "Bouchons, capsules à vis et systèmes de fermeture." },
+      { "name": "Capsules", "description": "Capsules PVC et thermorétractables, personnalisables." },
+      { "name": "Bois", "description": "Coiffes et éléments en bois pour une finition premium." }
+    ]
+  }
+}

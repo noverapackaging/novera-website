@@ -1,0 +1,75 @@
+---
+interface Props {
+  labels: { name: string; company: string; email: string; message: string; submit: string };
+  successMessage: string;
+}
+const { labels, successMessage } = Astro.props;
+---
+
+{/*
+  Netlify Forms: no backend needed. Netlify detects this form at deploy
+  time because of data-netlify="true" + the hidden "form-name" field.
+  Submissions show up in your Netlify dashboard under Forms.
+*/}
+<form
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  action="/thanks/"
+  class="grid gap-5 sm:grid-cols-2"
+>
+  <input type="hidden" name="form-name" value="contact" />
+  <p class="hidden">
+    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+  </p>
+
+  <label class="flex flex-col gap-1.5 text-sm sm:col-span-1">
+    <span class="font-medium text-graphite">{labels.name}</span>
+    <input
+      type="text"
+      name="name"
+      required
+      class="rounded-md border border-sand bg-white px-3.5 py-2.5 text-graphite outline-none focus:border-bronze focus:ring-1 focus:ring-bronze"
+    />
+  </label>
+
+  <label class="flex flex-col gap-1.5 text-sm sm:col-span-1">
+    <span class="font-medium text-graphite">{labels.company}</span>
+    <input
+      type="text"
+      name="company"
+      class="rounded-md border border-sand bg-white px-3.5 py-2.5 text-graphite outline-none focus:border-bronze focus:ring-1 focus:ring-bronze"
+    />
+  </label>
+
+  <label class="flex flex-col gap-1.5 text-sm sm:col-span-2">
+    <span class="font-medium text-graphite">{labels.email}</span>
+    <input
+      type="email"
+      name="email"
+      required
+      class="rounded-md border border-sand bg-white px-3.5 py-2.5 text-graphite outline-none focus:border-bronze focus:ring-1 focus:ring-bronze"
+    />
+  </label>
+
+  <label class="flex flex-col gap-1.5 text-sm sm:col-span-2">
+    <span class="font-medium text-graphite">{labels.message}</span>
+    <textarea
+      name="message"
+      rows="5"
+      required
+      class="rounded-md border border-sand bg-white px-3.5 py-2.5 text-graphite outline-none focus:border-bronze focus:ring-1 focus:ring-bronze"
+    ></textarea>
+  </label>
+
+  <div class="sm:col-span-2">
+    <button
+      type="submit"
+      class="inline-flex items-center rounded-md bg-deep-eucalyptus px-6 py-3 font-display text-sm uppercase tracking-wide text-warm-ivory transition-colors hover:bg-sage"
+    >
+      {labels.submit}
+    </button>
+    <p class="sr-only">{successMessage}</p>
+  </div>
+</form>

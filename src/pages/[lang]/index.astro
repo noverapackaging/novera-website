@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Icon from '../../components/Icon.astro';
+import { LOCALES, type Locale } from '../../i18n/locales';
+import { getPageContent } from '../../i18n/content';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Locale };
+
+const home = await getPageContent(lang, 'home');
+const site = await getPageContent(lang, 'site');
+const footer = await getPageContent(lang, 'footer');
+---
+
+<BaseLayout
+  locale={lang}
+  path=""
+  seoTitle={home.seoTitle}
+  seoDescription={home.seoDescription}
+  site={site}
+  footer={footer}
+>
+  <!-- Hero -->
+  <section class="bg-warm-ivory">
+    <div class="mx-auto max-w-content px-6 py-24 md:py-32">
+      <p class="font-display text-sm uppercase tracking-[0.2em] text-bronze">{home.hero.eyebrow}</p>
+      <h1 class="mt-5 max-w-3xl font-display text-4xl leading-tight text-deep-eucalyptus md:text-6xl">
+        {home.hero.headline}
+      </h1>
+      <p class="mt-6 max-w-xl text-lg leading-relaxed text-graphite/80">
+        {home.hero.intro}
+      </p>
+      <a
+        href={home.hero.ctaHref}
+        class="mt-9 inline-flex items-center rounded-md bg-deep-eucalyptus px-7 py-3.5 font-display text-sm uppercase tracking-wide text-warm-ivory transition-colors hover:bg-sage"
+      >
+        {home.hero.ctaLabel}
+      </a>
+    </div>
+  </section>
+
+  <!-- What we do -->
+  <section class="border-t border-sand/40 bg-warm-ivory">
+    <div class="mx-auto max-w-content px-6 py-20">
+      <h2 class="font-display text-2xl text-deep-eucalyptus">{home.whatWeDo.heading}</h2>
+      <div class="mt-10 grid gap-10 md:grid-cols-3">
+        {
+          home.whatWeDo.items.map((item: { label: string; description: string }) => (
+            <div class="border-l-2 border-bronze pl-6">
+              <p class="font-display text-sm uppercase tracking-[0.15em] text-deep-eucalyptus">{item.label}</p>
+              <p class="mt-3 text-sm leading-relaxed text-graphite/80">{item.description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="bg-deep-eucalyptus text-warm-ivory">
+    <div class="mx-auto max-w-content px-6 py-20">
+      <h2 class="font-display text-2xl">{home.values.heading}</h2>
+      <div class="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        {
+          home.values.items.map((value: { title: string; description: string; icon: 'globe' | 'star' | 'bolt' | 'leaf' }) => (
+            <div class="rounded-lg border border-warm-ivory/15 p-6">
+              <Icon name={value.icon} class="h-7 w-7 text-sand" />
+              <p class="mt-4 font-display text-base">{value.title}</p>
+              <p class="mt-2 text-sm leading-relaxed text-warm-ivory/70">{value.description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand story strip -->
+  <section class="bg-sand/30">
+    <div class="mx-auto max-w-content px-6 py-16 text-center">
+      <p class="mx-auto max-w-2xl font-display text-xl italic leading-relaxed text-deep-eucalyptus md:text-2xl">
+        {home.story.text}
+      </p>
+    </div>
+  </section>
+
+  <!-- Sectors -->
+  <section class="bg-warm-ivory">
+    <div class="mx-auto max-w-content px-6 py-20">
+      <h2 class="font-display text-2xl text-deep-eucalyptus">{home.sectors.heading}</h2>
+      <div class="mt-10 grid gap-8 md:grid-cols-3">
+        {
+          home.sectors.items.map((sector: { name: string; description: string }) => (
+            <div class="rounded-lg bg-white/60 p-6">
+              <p class="font-display text-base text-deep-eucalyptus">{sector.name}</p>
+              <p class="mt-2 text-sm leading-relaxed text-graphite/80">{sector.description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Product families -->
+  <section class="border-t border-sand/40 bg-warm-ivory">
+    <div class="mx-auto max-w-content px-6 py-20">
+      <h2 class="font-display text-2xl text-deep-eucalyptus">{home.families.heading}</h2>
+      <div class="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        {
+          home.families.items.map((family: { name: string; description: string }) => (
+            <div>
+              <p class="font-display text-base text-deep-eucalyptus">{family.name}</p>
+              <p class="mt-2 text-sm leading-relaxed text-graphite/80">{family.description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>

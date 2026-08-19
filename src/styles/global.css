@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------
+   TITLE / LOGO FONT — Satoshi (self-hosted, free via Fontshare)
+   Files live in /public/fonts/. Used via the `font-display` Tailwind
+   class (see tailwind.config.mjs).
+--------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------------------------------------------------------------------
+   BODY FONT — Mulish (Google Fonts), a free humanist stand-in for
+   Avenir Next Pro (a paid font we are not licensed to use yet).
+   It's loaded via a <link> tag in src/layouts/BaseLayout.astro <head>.
+
+   >>> SWAP BODY FONT HERE <<<
+   Once you buy an Avenir Next Pro web license:
+     1. Remove the two Google Fonts <link> tags in BaseLayout.astro.
+     2. Add @font-face rules for Avenir Next Pro here, the same way
+        Satoshi is declared above (point them at files in /public/fonts/).
+     3. In tailwind.config.mjs, change `body: ['Mulish', 'sans-serif']`
+        to `body: ['Avenir Next Pro', 'sans-serif']`.
+   That's the only place this decision lives — nothing else to change.
+--------------------------------------------------------------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f3f0e9; /* warm-ivory */
+  color: #262624; /* graphite */
+}

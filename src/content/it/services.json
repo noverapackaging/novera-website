@@ -1,0 +1,58 @@
+{
+  "seoTitle": "Servizi — NOVERA",
+  "seoDescription": "Sourcing, design e logistica: scoprite come NOVERA gestisce il vostro progetto di packaging end-to-end.",
+  "hero": {
+    "heading": "I nostri servizi",
+    "intro": "Dalla materia prima alla consegna, seguiamo ogni fase del vostro progetto di packaging."
+  },
+  "process": {
+    "heading": "Dalla fonte alla soluzione",
+    "items": [
+      {
+        "title": "Sourcing",
+        "description": "Individuazione e selezione dei fornitori più adatti al vostro capitolato, ai volumi e al budget."
+      },
+      {
+        "title": "Design",
+        "description": "Supporto su forma, materiale e finitura per un packaging fedele alla vostra identità di marchio."
+      },
+      {
+        "title": "Logistica",
+        "description": "Coordinamento di trasporto, tempistiche e stoccaggio per una consegna affidabile, ovunque voi siate."
+      }
+    ]
+  },
+  "families": {
+    "heading": "Famiglie di prodotto",
+    "items": [
+      {
+        "title": "Componenti in vetro",
+        "description": "Bottiglie, flaconi e vasetti a catalogo o su misura, in un'ampia gamma di colori e finiture."
+      },
+      {
+        "title": "Chiusure",
+        "description": "Tappi in sughero e sintetici, capsule a vite, sistemi di chiusura per ogni contenitore."
+      },
+      {
+        "title": "Capsule PVC / termoretraibili",
+        "description": "Capsule di sigillo personalizzabili, stampate nei vostri colori, per una finitura curata."
+      },
+      {
+        "title": "Testine in legno",
+        "description": "Elementi in legno naturale o laccato per un tocco premium e sostenibile sulla chiusura."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Parliamo del vostro progetto",
+    "description": "Una domanda, un capitolato, una richiesta di preventivo? Scriveteci, il nostro team risponde entro 48 ore.",
+    "formLabels": {
+      "name": "Nome",
+      "company": "Azienda",
+      "email": "Email",
+      "message": "Messaggio",
+      "submit": "Invia"
+    },
+    "successMessage": "Grazie, il vostro messaggio è stato inviato."
+  }
+}

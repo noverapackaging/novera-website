@@ -1,0 +1,46 @@
+---
+import LanguageSwitcher from './LanguageSwitcher.astro';
+import type { Locale } from '../i18n/locales';
+
+interface Props {
+  locale: Locale;
+  siteName: string;
+  nav: { home: string; services: string; contact: string };
+  languageSwitcherLabel: string;
+}
+const { locale, siteName, nav, languageSwitcherLabel } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<header class="bg-deep-eucalyptus text-warm-ivory">
+  <div class="mx-auto flex max-w-content items-center justify-between px-6 py-5">
+    <a href={`/${locale}/`} class="flex items-center gap-3">
+      {/*
+        Place your logo files in /public/images/ and this <img> will pick
+        them up automatically. See README "Logo & favicon" section.
+      */}
+      <img
+        src="/images/novera-wordmark.svg"
+        alt={siteName}
+        class="h-7 w-auto"
+        width="140"
+        height="28"
+      />
+    </a>
+
+    <nav aria-label={nav.home} class="hidden items-center gap-8 font-display text-sm uppercase tracking-wide md:flex">
+      <a href={`/${locale}/`} class="transition-colors hover:text-sand">{nav.home}</a>
+      <a href={`/${locale}/services/`} class="transition-colors hover:text-sand">{nav.services}</a>
+      <a href={`/${locale}/services/#contact`} class="transition-colors hover:text-sand">{nav.contact}</a>
+    </nav>
+
+    <LanguageSwitcher currentLocale={locale} currentPath={currentPath} label={languageSwitcherLabel} />
+  </div>
+
+  {/* Mobile nav — simple, always visible below the logo row on small screens */}
+  <nav aria-label={nav.home} class="flex items-center justify-center gap-6 border-t border-warm-ivory/10 py-3 font-display text-xs uppercase tracking-wide md:hidden">
+    <a href={`/${locale}/`} class="hover:text-sand">{nav.home}</a>
+    <a href={`/${locale}/services/`} class="hover:text-sand">{nav.services}</a>
+    <a href={`/${locale}/services/#contact`} class="hover:text-sand">{nav.contact}</a>
+  </nav>
+</header>

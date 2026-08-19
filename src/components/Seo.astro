@@ -1,0 +1,36 @@
+---
+import { LOCALES, type Locale } from '../i18n/locales';
+
+interface Props {
+  title: string;
+  description: string;
+  locale: Locale;
+  // Path without locale prefix, e.g. "" for home, "services/" for services.
+  path: string;
+}
+const { title, description, locale, path } = Astro.props;
+
+const siteUrl = Astro.site ?? new URL('https://novera.netlify.app');
+const canonicalPath = `/${locale}/${path}`;
+const canonicalUrl = new URL(canonicalPath, siteUrl);
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalUrl} />
+
+{/* hreflang alternates for the 4 locales, plus x-default pointing at fr */}
+{
+  LOCALES.map((loc) => (
+    <link rel="alternate" hreflang={loc} href={new URL(`/${loc}/${path}`, siteUrl)} />
+  ))
+}
+<link rel="alternate" hreflang="x-default" href={new URL(`/fr/${path}`, siteUrl)} />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:locale" content={locale} />
+<meta property="og:image" content={new URL('/images/novera-og.jpg', siteUrl)} />
+<meta name="twitter:card" content="summary_large_image" />

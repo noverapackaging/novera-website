@@ -1,0 +1,82 @@
+{
+  "seoTitle": "NOVERA — Sourcing e fornitura di packaging premium",
+  "seoDescription": "NOVERA affianca i marchi di spirits, food, profumeria e cosmetica nel sourcing del packaging: vetro, chiusure, capsule e legno.",
+  "hero": {
+    "eyebrow": "NOVERA",
+    "headline": "Il packaging che eleva il tuo marchio",
+    "intro": "Selezioniamo e forniamo i componenti di packaging premium che danno vita ai vostri prodotti — dal vetro alle chiusure, fino alle capsule e al legno.",
+    "ctaLabel": "Contatti",
+    "ctaHref": "/it/services/#contact"
+  },
+  "whatWeDo": {
+    "heading": "Cosa facciamo",
+    "items": [
+      {
+        "label": "MATERIALI",
+        "description": "Una rete di fornitori selezionati per la qualità e l'affidabilità delle materie prime."
+      },
+      {
+        "label": "DESIGN",
+        "description": "Un supporto creativo per tradurre l'identità del vostro marchio in un oggetto di packaging."
+      },
+      {
+        "label": "SOLUZIONI",
+        "description": "Una gestione del progetto end-to-end, dal capitolato alla consegna."
+      }
+    ]
+  },
+  "values": {
+    "heading": "I nostri valori",
+    "items": [
+      {
+        "title": "Internazionalità",
+        "description": "Una rete di fornitori e partner presenti su più continenti.",
+        "icon": "globe"
+      },
+      {
+        "title": "Eccellenza",
+        "description": "Un'esigenza costante sulla qualità dei materiali e della finitura.",
+        "icon": "star"
+      },
+      {
+        "title": "Reattività",
+        "description": "Team disponibili e tempi di consegna sotto controllo in ogni fase del progetto.",
+        "icon": "bolt"
+      },
+      {
+        "title": "Sostenibilità",
+        "description": "Scelte di materiali e processi pensate per ridurre il nostro impatto.",
+        "icon": "leaf"
+      }
+    ]
+  },
+  "story": {
+    "text": "Tutto inizia dalla materia. Dalla sabbia nasce il vetro, dal vetro nasce la bottiglia."
+  },
+  "sectors": {
+    "heading": "Settori serviti",
+    "items": [
+      {
+        "name": "Spirits",
+        "description": "Bottiglie e chiusure per case di spirits e distillerie."
+      },
+      {
+        "name": "Food",
+        "description": "Contenitori in vetro per gastronomia fine e prodotti gourmet."
+      },
+      {
+        "name": "Profumeria & Cosmetica",
+        "description": "Flaconi e accessori per marchi di bellezza e profumeria."
+      }
+    ]
+  },
+  "families": {
+    "heading": "Famiglie di prodotto",
+    "items": [
+      { "name": "Vetro", "description": "Bottiglie e flaconi su misura o a catalogo." },
+      { "name": "Chiusure", "description": "Tappi, capsule a vite e sistemi di chiusura." },
+      { "name": "Capsule", "description": "Capsule in PVC e termoretraibili, personalizzabili." },
+      { "name": "Legno", "description": "Testine e elementi in legno per una finitura premium." }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "seoTitle": "Services — NOVERA",
+  "seoDescription": "Sourcing, design et logistique : découvrez comment NOVERA gère votre projet de packaging de bout en bout.",
+  "hero": {
+    "heading": "Nos services",
+    "intro": "De la matière première à la livraison, nous prenons en charge chaque étape de votre projet de packaging."
+  },
+  "process": {
+    "heading": "De la source à la solution",
+    "items": [
+      {
+        "title": "Sourcing",
+        "description": "Identification et sélection des fournisseurs les plus adaptés à votre cahier des charges, votre volume et votre budget."
+      },
+      {
+        "title": "Design",
+        "description": "Accompagnement sur la forme, la matière et la finition pour un packaging fidèle à votre identité de marque."
+      },
+      {
+        "title": "Logistique",
+        "description": "Coordination du transport, des délais et du stockage pour une livraison fiable, où que vous soyez."
+      }
+    ]
+  },
+  "families": {
+    "heading": "Familles de produits",
+    "items": [
+      {
+        "title": "Composants verre",
+        "description": "Bouteilles, flacons et pots sur catalogue ou sur-mesure, dans une large gamme de teintes et de finitions."
+      },
+      {
+        "title": "Bouchage",
+        "description": "Bouchons liège et synthétiques, capsules à vis, systèmes de fermeture adaptés à chaque contenant."
+      },
+      {
+        "title": "Capsules PVC / thermorétractables",
+        "description": "Capsules de scellage personnalisables, imprimées à vos couleurs, pour une finition soignée."
+      },
+      {
+        "title": "Coiffes bois",
+        "description": "Éléments en bois naturel ou laqué pour une touche premium et durable sur votre bouchage."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Parlons de votre projet",
+    "description": "Une question, un cahier des charges, un besoin de devis ? Écrivez-nous, notre équipe vous répond sous 48h.",
+    "formLabels": {
+      "name": "Nom",
+      "company": "Société",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Envoyer"
+    },
+    "successMessage": "Merci, votre message a bien été envoyé."
+  }
+}

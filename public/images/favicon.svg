@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="NOVERA">
+  <!-- PLACEHOLDER FAVICON — replace with your real NVR emblem export.
+       See README.md > "Logo & favicon" for the exact filename to reuse. -->
+  <rect width="64" height="64" rx="12" fill="#1E3D35" />
+  <text x="32" y="41" font-family="'Satoshi', Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="1" fill="#C9BBA5" text-anchor="middle">NVR</text>
+</svg>

@@ -1,0 +1,58 @@
+{
+  "seoTitle": "Services — NOVERA",
+  "seoDescription": "Sourcing, design and logistics: discover how NOVERA manages your packaging project end-to-end.",
+  "hero": {
+    "heading": "Our services",
+    "intro": "From raw material to delivery, we handle every step of your packaging project."
+  },
+  "process": {
+    "heading": "From source to solution",
+    "items": [
+      {
+        "title": "Sourcing",
+        "description": "Identifying and selecting the suppliers best suited to your brief, your volumes and your budget."
+      },
+      {
+        "title": "Design",
+        "description": "Support on shape, material and finish for packaging true to your brand identity."
+      },
+      {
+        "title": "Logistics",
+        "description": "Coordinating transport, lead times and storage for reliable delivery, wherever you are."
+      }
+    ]
+  },
+  "families": {
+    "heading": "Product families",
+    "items": [
+      {
+        "title": "Glass components",
+        "description": "Catalogue or custom bottles, flacons and jars, in a wide range of colours and finishes."
+      },
+      {
+        "title": "Closures",
+        "description": "Cork and synthetic stoppers, screw caps, closure systems suited to every container."
+      },
+      {
+        "title": "PVC / shrink capsules",
+        "description": "Customisable sealing capsules, printed in your colours, for a polished finish."
+      },
+      {
+        "title": "Wood tops",
+        "description": "Natural or lacquered wood elements for a premium, sustainable touch on your closures."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's talk about your project",
+    "description": "A question, a brief, a quote request? Write to us — our team replies within 48 hours.",
+    "formLabels": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send"
+    },
+    "successMessage": "Thank you, your message has been sent."
+  }
+}

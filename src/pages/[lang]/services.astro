@@ -1,0 +1,83 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContactForm from '../../components/ContactForm.astro';
+import { LOCALES, type Locale } from '../../i18n/locales';
+import { getPageContent } from '../../i18n/content';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Locale };
+
+const services = await getPageContent(lang, 'services');
+const site = await getPageContent(lang, 'site');
+const footer = await getPageContent(lang, 'footer');
+---
+
+<BaseLayout
+  locale={lang}
+  path="services/"
+  seoTitle={services.seoTitle}
+  seoDescription={services.seoDescription}
+  site={site}
+  footer={footer}
+>
+  <!-- Hero -->
+  <section class="bg-warm-ivory">
+    <div class="mx-auto max-w-content px-6 py-20 md:py-28">
+      <h1 class="font-display text-4xl text-deep-eucalyptus md:text-5xl">{services.hero.heading}</h1>
+      <p class="mt-6 max-w-xl text-lg leading-relaxed text-graphite/80">{services.hero.intro}</p>
+    </div>
+  </section>
+
+  <!-- Process: Sourcing / Design / Logistics -->
+  <section class="border-t border-sand/40 bg-warm-ivory">
+    <div class="mx-auto max-w-content px-6 py-20">
+      <h2 class="font-display text-2xl text-deep-eucalyptus">{services.process.heading}</h2>
+      <div class="mt-10 grid gap-10 md:grid-cols-3">
+        {
+          services.process.items.map((step: { title: string; description: string }, i: number) => (
+            <div class="border-l-2 border-bronze pl-6">
+              <p class="font-display text-xs uppercase tracking-[0.2em] text-bronze">
+                {String(i + 1).padStart(2, '0')}
+              </p>
+              <p class="mt-2 font-display text-lg text-deep-eucalyptus">{step.title}</p>
+              <p class="mt-3 text-sm leading-relaxed text-graphite/80">{step.description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Product families -->
+  <section class="bg-deep-eucalyptus text-warm-ivory">
+    <div class="mx-auto max-w-content px-6 py-20">
+      <h2 class="font-display text-2xl">{services.families.heading}</h2>
+      <div class="mt-10 grid gap-8 sm:grid-cols-2">
+        {
+          services.families.items.map((family: { title: string; description: string }) => (
+            <div class="rounded-lg border border-warm-ivory/15 p-7">
+              <p class="font-display text-lg">{family.title}</p>
+              <p class="mt-3 text-sm leading-relaxed text-warm-ivory/70">{family.description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-warm-ivory">
+    <div class="mx-auto max-w-content px-6 py-20 md:py-24">
+      <div class="mx-auto max-w-2xl">
+        <h2 class="font-display text-2xl text-deep-eucalyptus">{services.contact.heading}</h2>
+        <p class="mt-3 text-sm leading-relaxed text-graphite/80">{services.contact.description}</p>
+        <div class="mt-10">
+          <ContactForm labels={services.contact.formLabels} successMessage={services.contact.successMessage} />
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

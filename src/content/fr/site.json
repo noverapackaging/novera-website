@@ -1,0 +1,10 @@
+{
+  "siteName": "NOVERA",
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "languageSwitcherLabel": "Langue",
+  "skipToContent": "Aller au contenu"
+}

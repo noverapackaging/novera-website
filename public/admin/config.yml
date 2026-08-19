@@ -1,0 +1,221 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Publish changes go through a draft/review step before going live.
+publish_mode: editorial_workflow
+
+media_folder: "public/images"
+public_folder: "/images"
+
+# Four languages, side by side in every entry. FR is the source language.
+i18n:
+  structure: multiple_folders
+  locales: [fr, en, it, es]
+  default_locale: fr
+
+collections:
+  - name: "home"
+    label: "Home Page"
+    files:
+      - name: "home"
+        label: "Home Page Content"
+        file: "src/content/home.json"
+        i18n: true
+        fields:
+          - { label: "SEO Title", name: "seoTitle", widget: "string", i18n: true }
+          - { label: "SEO Description", name: "seoDescription", widget: "text", i18n: true }
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Eyebrow (small text above headline)", name: "eyebrow", widget: "string", i18n: true }
+              - { label: "Headline", name: "headline", widget: "string", i18n: true }
+              - { label: "Intro paragraph", name: "intro", widget: "text", i18n: true }
+              - { label: "Button label", name: "ctaLabel", widget: "string", i18n: true }
+              - { label: "Button link", name: "ctaHref", widget: "string", i18n: true, hint: "e.g. /fr/services/#contact — keep the locale prefix matching this page's language" }
+
+          - label: "What We Do"
+            name: "whatWeDo"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Section heading", name: "heading", widget: "string", i18n: true }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                i18n: true
+                fields:
+                  - { label: "Label (e.g. MATERIALS)", name: "label", widget: "string", i18n: true }
+                  - { label: "Description", name: "description", widget: "text", i18n: true }
+
+          - label: "Values"
+            name: "values"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Section heading", name: "heading", widget: "string", i18n: true }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                i18n: true
+                fields:
+                  - { label: "Title", name: "title", widget: "string", i18n: true }
+                  - { label: "Description", name: "description", widget: "text", i18n: true }
+                  - label: "Icon"
+                    name: "icon"
+                    widget: "select"
+                    i18n: duplicate
+                    options: ["globe", "star", "bolt", "leaf"]
+                    hint: "Same icon for every language, so this field is not translated."
+
+          - label: "Brand Story Strip"
+            name: "story"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Text (sand → glass → bottle line)", name: "text", widget: "text", i18n: true }
+
+          - label: "Sectors Served"
+            name: "sectors"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Section heading", name: "heading", widget: "string", i18n: true }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                i18n: true
+                fields:
+                  - { label: "Sector name", name: "name", widget: "string", i18n: true }
+                  - { label: "Description", name: "description", widget: "text", i18n: true }
+
+          - label: "Product Families"
+            name: "families"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Section heading", name: "heading", widget: "string", i18n: true }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                i18n: true
+                fields:
+                  - { label: "Family name", name: "name", widget: "string", i18n: true }
+                  - { label: "Description", name: "description", widget: "text", i18n: true }
+
+  - name: "services"
+    label: "Services Page"
+    files:
+      - name: "services"
+        label: "Services Page Content"
+        file: "src/content/services.json"
+        i18n: true
+        fields:
+          - { label: "SEO Title", name: "seoTitle", widget: "string", i18n: true }
+          - { label: "SEO Description", name: "seoDescription", widget: "text", i18n: true }
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string", i18n: true }
+              - { label: "Intro paragraph", name: "intro", widget: "text", i18n: true }
+
+          - label: "Process (Sourcing / Design / Logistics)"
+            name: "process"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Section heading", name: "heading", widget: "string", i18n: true }
+              - label: "Steps"
+                name: "items"
+                widget: "list"
+                i18n: true
+                fields:
+                  - { label: "Title", name: "title", widget: "string", i18n: true }
+                  - { label: "Description", name: "description", widget: "text", i18n: true }
+
+          - label: "Product Families"
+            name: "families"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Section heading", name: "heading", widget: "string", i18n: true }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                i18n: true
+                fields:
+                  - { label: "Title", name: "title", widget: "string", i18n: true }
+                  - { label: "Description", name: "description", widget: "text", i18n: true }
+
+          - label: "Contact Section"
+            name: "contact"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string", i18n: true }
+              - { label: "Description", name: "description", widget: "text", i18n: true }
+              - label: "Form field labels"
+                name: "formLabels"
+                widget: "object"
+                i18n: true
+                fields:
+                  - { label: "Name field label", name: "name", widget: "string", i18n: true }
+                  - { label: "Company field label", name: "company", widget: "string", i18n: true }
+                  - { label: "Email field label", name: "email", widget: "string", i18n: true }
+                  - { label: "Message field label", name: "message", widget: "string", i18n: true }
+                  - { label: "Submit button label", name: "submit", widget: "string", i18n: true }
+              - { label: "Success message", name: "successMessage", widget: "string", i18n: true }
+
+  - name: "footer"
+    label: "Footer & Contact"
+    files:
+      - name: "footer"
+        label: "Footer Content"
+        file: "src/content/footer.json"
+        i18n: true
+        fields:
+          - { label: "Company name", name: "companyName", widget: "string", i18n: true }
+          - { label: "Tagline", name: "tagline", widget: "string", i18n: true }
+          - label: "Address lines"
+            name: "addressLines"
+            widget: "list"
+            i18n: true
+            allow_add: true
+            hint: "One line of the postal address per entry."
+          - { label: "Contact email", name: "email", widget: "string", i18n: duplicate }
+          - { label: "Contact phone", name: "phone", widget: "string", i18n: duplicate }
+          - label: "Legal mentions"
+            name: "legal"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Line 1 (company + capital)", name: "line1", widget: "string", i18n: true }
+              - { label: "Line 2 (RCS)", name: "line2", widget: "string", i18n: duplicate }
+              - { label: "Line 3 (VAT number)", name: "line3", widget: "string", i18n: duplicate }
+          - { label: "Copyright line (use {year} for the current year)", name: "copyright", widget: "string", i18n: true }
+
+  - name: "site"
+    label: "Site Navigation"
+    files:
+      - name: "site"
+        label: "Navigation & Common Labels"
+        file: "src/content/site.json"
+        i18n: true
+        fields:
+          - { label: "Site name", name: "siteName", widget: "string", i18n: duplicate }
+          - label: "Navigation labels"
+            name: "nav"
+            widget: "object"
+            i18n: true
+            fields:
+              - { label: "Home", name: "home", widget: "string", i18n: true }
+              - { label: "Services", name: "services", widget: "string", i18n: true }
+              - { label: "Contact", name: "contact", widget: "string", i18n: true }
+          - { label: "Language switcher label (for screen readers)", name: "languageSwitcherLabel", widget: "string", i18n: true }
+          - { label: "\"Skip to content\" link text (for keyboard users)", name: "skipToContent", widget: "string", i18n: true }
