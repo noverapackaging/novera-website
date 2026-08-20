@@ -1,50 +1,58 @@
 {
-  "seoTitle": "Services — NOVERA",
-  "seoDescription": "Sourcing, design and logistics: discover how NOVERA manages your packaging project end-to-end.",
+  "seoTitle": "Services · Packaging sourcing, design and logistics · NOVERA",
+  "seoDescription": "From specification to delivery: sourcing, design and logistics. A single partner for all your premium packaging.",
   "hero": {
     "heading": "Our services",
-    "intro": "From raw material to delivery, we handle every step of your packaging project."
+    "intro": "End-to-end support, from defining the need to delivery. A single partner for your entire packaging."
   },
   "process": {
     "heading": "From source to solution",
     "items": [
       {
         "title": "Sourcing",
-        "description": "Identifying and selecting the suppliers best suited to your brief, your volumes and your budget."
+        "description": "We identify the right manufacturer for every specification, including formats and closures you won't find elsewhere. You consolidate suppliers and gain consistency."
       },
       {
         "title": "Design",
-        "description": "Support on shape, material and finish for packaging true to your brand identity."
+        "description": "Technical sheets, proofs, customization, logo placement: we frame every detail before production, for a perfect result from the first batch."
       },
       {
         "title": "Logistics",
-        "description": "Coordinating transport, lead times and storage for reliable delivery, wherever you are."
+        "description": "We manage transport, customs and delivery, with buffer stock and on-demand shipments available. You are always on time, without tying up cash."
       }
     ]
   },
   "families": {
-    "heading": "Product families",
+    "heading": "Our product families",
     "items": [
       {
         "title": "Glass components",
-        "description": "Catalogue or custom bottles, flacons and jars, in a wide range of colours and finishes."
+        "description": "Bottles and flacons, standard or bespoke formats, in a wide range of colours and finishes.",
+        "image": "/images/family-glass.jpg",
+        "imageAlt": "Green glass bottle on a neutral background"
       },
       {
         "title": "Closures",
-        "description": "Cork and synthetic stoppers, screw caps, closure systems suited to every container."
+        "description": "Closures and stoppering systems: bartops, screw caps, pourers, reducers.",
+        "image": "/images/family-closures.jpg",
+        "imageAlt": "Loose cork stoppers"
       },
       {
         "title": "PVC / shrink capsules",
-        "description": "Customisable sealing capsules, printed in your colours, for a polished finish."
+        "description": "Shrink PVC capsules and overcaps, for a clean finish.",
+        "image": "/images/family-capsules.jpg",
+        "imageAlt": "Bronze capsule on the neck of a dark bottle"
       },
       {
         "title": "Wood tops",
-        "description": "Natural or lacquered wood elements for a premium, sustainable touch on your closures."
+        "description": "Wood tops and stoppers, co-injected, for a high-end feel.",
+        "image": "/images/family-wood.jpg",
+        "imageAlt": "Dark wood grain"
       }
     ]
   },
   "contact": {
-    "heading": "Let's talk about your project",
+    "heading": "A packaging project? Let's talk.",
     "description": "A question, a brief, a quote request? Write to us — our team replies within 48 hours.",
     "formLabels": {
       "name": "Name",

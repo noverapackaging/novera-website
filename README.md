@@ -155,11 +155,12 @@ the site, and only affects the logo graphic itself, so nothing to worry
 about there. If you ever replace this file, keep the same filename and
 nothing else needs to change.
 
-Still missing — add this when you have it:
-
-| File | What it is | Used for |
-|---|---|---|
-| `public/images/novera-og.jpg` | a 1200×630px image (doesn't exist yet) | Preview image when the site is shared on social media / messaging apps |
+The site's photos (hero bottle, sand dune, sector and product-family
+images, and `novera-og.jpg` — the preview image when the site is shared
+on social media) also live in `public/images/`. They are free-license
+(CC0) stock photos chosen to match the brand; swap any of them from the
+CMS (each image field has a picker) or by replacing the file in
+`public/images/` with the same name.
 
 You can drop files directly into `public/images/` via GitHub, or upload
 them through the CMS's media picker once Identity/Git Gateway is set up

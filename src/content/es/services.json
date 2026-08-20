@@ -1,50 +1,58 @@
 {
-  "seoTitle": "Servicios — NOVERA",
-  "seoDescription": "Sourcing, diseño y logística: descubra cómo NOVERA gestiona su proyecto de packaging de principio a fin.",
+  "seoTitle": "Servicios · Sourcing, diseño y logística de packaging · NOVERA",
+  "seoDescription": "De la especificación a la entrega: sourcing, diseño y logística. Un único partner para todo tu packaging premium.",
   "hero": {
     "heading": "Nuestros servicios",
-    "intro": "Desde la materia prima hasta la entrega, nos encargamos de cada etapa de vuestro proyecto de packaging."
+    "intro": "Un acompañamiento integral, desde la definición de la necesidad hasta la entrega. Un único partner para todo tu packaging."
   },
   "process": {
     "heading": "De la fuente a la solución",
     "items": [
       {
         "title": "Sourcing",
-        "description": "Identificación y selección de los proveedores más adecuados para vuestro briefing, volúmenes y presupuesto."
+        "description": "Identificamos el fabricante adecuado para cada especificación, incluidos formatos y cierres que no encontrarás en otro sitio. Consolidas proveedores y ganas coherencia."
       },
       {
         "title": "Diseño",
-        "description": "Acompañamiento en la forma, el material y el acabado para un packaging fiel a vuestra identidad de marca."
+        "description": "Fichas técnicas, pruebas, personalización, posicionamiento del logo: definimos cada detalle antes de producir, para un resultado perfecto desde el primer lote."
       },
       {
         "title": "Logística",
-        "description": "Coordinación del transporte, los plazos y el almacenamiento para una entrega fiable, estéis donde estéis."
+        "description": "Gestionamos transporte, aduana y entrega, con posibilidad de stock regulador y envíos a demanda. Siempre a tiempo, sin inmovilizar tesorería."
       }
     ]
   },
   "families": {
-    "heading": "Familias de producto",
+    "heading": "Nuestras familias de producto",
     "items": [
       {
         "title": "Componentes de vidrio",
-        "description": "Botellas, frascos y tarros de catálogo o a medida, en una amplia gama de colores y acabados."
+        "description": "Botellas y frascos, formatos estándar o a medida, en una amplia gama de colores y acabados.",
+        "image": "/images/family-glass.jpg",
+        "imageAlt": "Botella de vidrio verde sobre fondo neutro"
       },
       {
-        "title": "Cierres",
-        "description": "Tapones de corcho y sintéticos, cápsulas roscadas, sistemas de cierre para cada envase."
+        "title": "Tapones",
+        "description": "Tapones y sistemas de cierre: bartops, de rosca, vertedores, reductores.",
+        "image": "/images/family-closures.jpg",
+        "imageAlt": "Tapones de corcho sueltos"
       },
       {
         "title": "Cápsulas de PVC / termorretráctiles",
-        "description": "Cápsulas de sellado personalizables, impresas en vuestros colores, para un acabado cuidado."
+        "description": "Cápsulas de PVC termorretráctiles y sobretapas, para un acabado limpio.",
+        "image": "/images/family-capsules.jpg",
+        "imageAlt": "Cápsula color bronce en el cuello de una botella oscura"
       },
       {
-        "title": "Remates de madera",
-        "description": "Elementos de madera natural o lacada para un toque premium y sostenible en vuestro cierre."
+        "title": "Cabezas de madera",
+        "description": "Cabezas y tapones de madera, coinyectados, para un acabado de alta gama.",
+        "image": "/images/family-wood.jpg",
+        "imageAlt": "Veta de una madera oscura"
       }
     ]
   },
   "contact": {
-    "heading": "Hablemos de vuestro proyecto",
+    "heading": "¿Un proyecto de packaging? Hablemos.",
     "description": "¿Una pregunta, un briefing, una solicitud de presupuesto? Escribidnos, nuestro equipo responde en un plazo de 48 horas.",
     "formLabels": {
       "name": "Nombre",

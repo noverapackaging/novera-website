@@ -1,27 +1,29 @@
 {
-  "seoTitle": "NOVERA — Sourcing & fourniture de packaging premium",
-  "seoDescription": "NOVERA accompagne les marques de spiritueux, alimentaire, parfum et cosmétique dans le sourcing de leur packaging : verre, bouchage, capsules et bois.",
+  "seoTitle": "NOVERA · Packaging premium pour spiritueux, gastronomie et cosmétique",
+  "seoDescription": "Sourcing & supply partner en packaging premium : verre, bouchons, capsules. Nous relions votre marque aux meilleurs fabricants européens.",
   "hero": {
     "eyebrow": "NOVERA",
-    "headline": "Le packaging qui élève votre marque",
-    "intro": "Nous sourçons et fournissons les composants de packaging premium qui donnent vie à vos produits — du verre au bouchage, en passant par le bois et les capsules.",
-    "ctaLabel": "Contact",
-    "ctaHref": "/fr/services/#contact"
+    "headline": "Le packaging qui élève votre marque.",
+    "intro": "NOVERA est votre sourcing & supply partner en packaging premium. Nous relions les marques de spiritueux, gastronomie et cosmétique aux meilleurs verriers et fabricants européens.",
+    "ctaLabel": "Nous contacter",
+    "ctaHref": "/fr/services/#contact",
+    "image": "/images/hero-bottle.jpg",
+    "imageAlt": "Col d'une bouteille en verre sombre coiffée d'une capsule bronze"
   },
   "whatWeDo": {
-    "heading": "Ce que nous faisons",
+    "heading": "MATERIALS · DESIGN · SOLUTIONS",
     "items": [
       {
-        "label": "MATIÈRES",
-        "description": "Un réseau de fournisseurs sélectionnés pour la qualité et la fiabilité de leurs matières premières."
+        "label": "MATERIALS",
+        "description": "La matière, notre point d'origine. Du sable naît le verre, du verre naît la bouteille : nous maîtrisons la chaîne, du grain au produit fini."
       },
       {
         "label": "DESIGN",
-        "description": "Un accompagnement créatif pour traduire l'identité de votre marque en objet packaging."
+        "description": "L'exigence esthétique et le détail, au service de chaque marque. Formats, finitions, personnalisation : nous donnons corps à votre identité."
       },
       {
         "label": "SOLUTIONS",
-        "description": "Une gestion de projet de bout en bout, du cahier des charges à la livraison."
+        "description": "Un service de bout en bout : sourcing, design, logistique. Un seul interlocuteur pour tout votre packaging."
       }
     ]
   },
@@ -30,53 +32,61 @@
     "items": [
       {
         "title": "International",
-        "description": "Un réseau de fournisseurs et de partenaires présents sur plusieurs continents.",
+        "description": "Un réseau global de partenaires de confiance, une présence locale.",
         "icon": "globe"
       },
       {
         "title": "Excellence",
-        "description": "Une exigence constante sur la qualité des matières et de la finition.",
+        "description": "Des produits premium, sélectionnés avec exigence, un service sur-mesure.",
         "icon": "star"
       },
       {
         "title": "Réactivité",
-        "description": "Des équipes disponibles et des délais maîtrisés à chaque étape du projet.",
+        "description": "Une réponse rapide et fiable à chaque étape : notre avantage de partenaire agile.",
         "icon": "bolt"
       },
       {
         "title": "Durabilité",
-        "description": "Des choix de matières et de process pensés pour réduire notre impact.",
+        "description": "Des choix responsables, pour un avenir durable.",
         "icon": "leaf"
       }
     ]
   },
   "story": {
-    "text": "Tout commence par la matière. Du sable naît le verre, du verre naît la bouteille."
+    "text": "Tout commence par la matière. Du sable naît le verre, du verre naît la bouteille, l'objet qui porte une marque.",
+    "image": "/images/story-sand.jpg",
+    "imageAlt": "Dune de sable sous une lumière chaude"
   },
   "sectors": {
-    "heading": "Secteurs que nous servons",
+    "heading": "Les secteurs que nous servons",
     "items": [
       {
         "name": "Spiritueux",
-        "description": "Bouteilles et bouchage pour maisons de spiritueux et distilleries."
+        "description": "Bouteilles et bouchage pour maisons de spiritueux et distilleries.",
+        "image": "/images/sector-spirits.jpg",
+        "imageAlt": "Verre à whisky ciselé sur une table en bois"
       },
       {
-        "name": "Alimentaire",
-        "description": "Contenants en verre pour l'épicerie fine et les produits gourmets."
+        "name": "Gastronomie",
+        "description": "Contenants en verre pour l'épicerie fine et les produits gourmets.",
+        "image": "/images/sector-food.jpg",
+        "imageAlt": "Bouteilles d'huile d'olive en verre avec bouchon liège"
       },
       {
-        "name": "Parfum & Cosmétique",
-        "description": "Flaconnage et accessoires pour les marques de beauté et de parfumerie."
+        "name": "Parfum & cosmétique",
+        "description": "Flaconnage et accessoires pour les marques de beauté et de parfumerie.",
+        "image": "/images/sector-fragrance.jpg",
+        "imageAlt": "Flacons de parfum en verre travaillé"
       }
     ]
   },
   "families": {
-    "heading": "Familles de produits",
+    "heading": "Nos familles de produits",
     "items": [
-      { "name": "Verre", "description": "Bouteilles et flacons sur-mesure ou sur catalogue." },
-      { "name": "Bouchage", "description": "Bouchons, capsules à vis et systèmes de fermeture." },
-      { "name": "Capsules", "description": "Capsules PVC et thermorétractables, personnalisables." },
-      { "name": "Bois", "description": "Coiffes et éléments en bois pour une finition premium." }
+      { "name": "Verre", "description": "Composants verre : bouteilles et flacons, formats standard ou sur-mesure." },
+      { "name": "Bouchons", "description": "Bouchons et systèmes de fermeture : bartops, à vis, verseurs, réducteurs." },
+      { "name": "Capsules", "description": "Capsules PVC thermorétractables et surbouchages, pour une finition nette." },
+      { "name": "Bois", "description": "Têtes et bouchons bois, co-injectés, pour un rendu haut de gamme." }
     ]
   }
 }

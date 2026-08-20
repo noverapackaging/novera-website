@@ -1,27 +1,29 @@
 {
-  "seoTitle": "NOVERA — Sourcing e fornitura di packaging premium",
-  "seoDescription": "NOVERA affianca i marchi di spirits, food, profumeria e cosmetica nel sourcing del packaging: vetro, chiusure, capsule e legno.",
+  "seoTitle": "NOVERA · Packaging premium per spirits, gastronomia e cosmetica",
+  "seoDescription": "Sourcing & supply partner nel packaging premium: vetro, tappi, capsule. Colleghiamo il tuo marchio ai migliori produttori europei.",
   "hero": {
     "eyebrow": "NOVERA",
-    "headline": "Il packaging che eleva il tuo marchio",
-    "intro": "Selezioniamo e forniamo i componenti di packaging premium che danno vita ai vostri prodotti — dal vetro alle chiusure, fino alle capsule e al legno.",
-    "ctaLabel": "Contatti",
-    "ctaHref": "/it/services/#contact"
+    "headline": "Il packaging che valorizza il tuo marchio.",
+    "intro": "NOVERA è il tuo sourcing & supply partner nel packaging premium. Colleghiamo i marchi di spirits, gastronomia e cosmetica ai migliori vetrai e produttori europei.",
+    "ctaLabel": "Contattaci",
+    "ctaHref": "/it/services/#contact",
+    "image": "/images/hero-bottle.jpg",
+    "imageAlt": "Collo di una bottiglia in vetro scuro con capsula color bronzo"
   },
   "whatWeDo": {
-    "heading": "Cosa facciamo",
+    "heading": "MATERIALS · DESIGN · SOLUTIONS",
     "items": [
       {
-        "label": "MATERIALI",
-        "description": "Una rete di fornitori selezionati per la qualità e l'affidabilità delle materie prime."
+        "label": "MATERIALS",
+        "description": "La materia, il nostro punto d'origine. Dalla sabbia nasce il vetro, dal vetro la bottiglia: governiamo la filiera, dal granello al prodotto finito."
       },
       {
         "label": "DESIGN",
-        "description": "Un supporto creativo per tradurre l'identità del vostro marchio in un oggetto di packaging."
+        "description": "Rigore estetico e cura del dettaglio, al servizio di ogni marchio. Formati, finiture, personalizzazione: diamo forma alla tua identità."
       },
       {
-        "label": "SOLUZIONI",
-        "description": "Una gestione del progetto end-to-end, dal capitolato alla consegna."
+        "label": "SOLUTIONS",
+        "description": "Un servizio end-to-end: sourcing, design, logistica. Un unico interlocutore per tutto il tuo packaging."
       }
     ]
   },
@@ -29,54 +31,62 @@
     "heading": "I nostri valori",
     "items": [
       {
-        "title": "Internazionalità",
-        "description": "Una rete di fornitori e partner presenti su più continenti.",
+        "title": "International",
+        "description": "Una rete globale di partner affidabili, con presenza locale.",
         "icon": "globe"
       },
       {
-        "title": "Eccellenza",
-        "description": "Un'esigenza costante sulla qualità dei materiali e della finitura.",
+        "title": "Excellence",
+        "description": "Prodotti premium, selezionati con esigenza, un servizio su misura.",
         "icon": "star"
       },
       {
         "title": "Reattività",
-        "description": "Team disponibili e tempi di consegna sotto controllo in ogni fase del progetto.",
+        "description": "Una risposta rapida e affidabile a ogni passo: il vantaggio di un partner agile.",
         "icon": "bolt"
       },
       {
         "title": "Sostenibilità",
-        "description": "Scelte di materiali e processi pensate per ridurre il nostro impatto.",
+        "description": "Scelte responsabili, per un futuro sostenibile.",
         "icon": "leaf"
       }
     ]
   },
   "story": {
-    "text": "Tutto inizia dalla materia. Dalla sabbia nasce il vetro, dal vetro nasce la bottiglia."
+    "text": "Tutto comincia dalla materia. Dalla sabbia nasce il vetro, dal vetro la bottiglia, l'oggetto che porta un marchio.",
+    "image": "/images/story-sand.jpg",
+    "imageAlt": "Duna di sabbia in una luce calda"
   },
   "sectors": {
-    "heading": "Settori serviti",
+    "heading": "I settori che serviamo",
     "items": [
       {
         "name": "Spirits",
-        "description": "Bottiglie e chiusure per case di spirits e distillerie."
+        "description": "Bottiglie e chiusure per case di spirits e distillerie.",
+        "image": "/images/sector-spirits.jpg",
+        "imageAlt": "Bicchiere da whisky lavorato su un tavolo in legno"
       },
       {
-        "name": "Food",
-        "description": "Contenitori in vetro per gastronomia fine e prodotti gourmet."
+        "name": "Gastronomia",
+        "description": "Contenitori in vetro per gastronomia fine e prodotti gourmet.",
+        "image": "/images/sector-food.jpg",
+        "imageAlt": "Bottiglie d'olio d'oliva in vetro con tappo in sughero"
       },
       {
-        "name": "Profumeria & Cosmetica",
-        "description": "Flaconi e accessori per marchi di bellezza e profumeria."
+        "name": "Profumeria & cosmetica",
+        "description": "Flaconi e accessori per marchi di bellezza e profumeria.",
+        "image": "/images/sector-fragrance.jpg",
+        "imageAlt": "Flaconi di profumo in vetro lavorato"
       }
     ]
   },
   "families": {
-    "heading": "Famiglie di prodotto",
+    "heading": "Le nostre famiglie di prodotto",
     "items": [
-      { "name": "Vetro", "description": "Bottiglie e flaconi su misura o a catalogo." },
-      { "name": "Chiusure", "description": "Tappi, capsule a vite e sistemi di chiusura." },
-      { "name": "Capsule", "description": "Capsule in PVC e termoretraibili, personalizzabili." },
-      { "name": "Legno", "description": "Testine e elementi in legno per una finitura premium." }
+      { "name": "Vetro", "description": "Componenti vetro: bottiglie e flaconi, formati standard o su misura." },
+      { "name": "Tappi", "description": "Tappi e sistemi di chiusura: bartop, a vite, versatori, riduttori." },
+      { "name": "Capsule", "description": "Capsule PVC termoretraibili e sovratappi, per una finitura netta." },
+      { "name": "Legno", "description": "Teste e tappi in legno, co-iniettati, per un risultato di alta gamma." }
     ]
   }
 }

@@ -36,6 +36,8 @@ collections:
               - { label: "Intro paragraph", name: "intro", widget: "text", i18n: true }
               - { label: "Button label", name: "ctaLabel", widget: "string", i18n: true }
               - { label: "Button link", name: "ctaHref", widget: "string", i18n: true, hint: "e.g. /fr/services/#contact — keep the locale prefix matching this page's language" }
+              - { label: "Image", name: "image", widget: "image", i18n: duplicate }
+              - { label: "Image description (alt text, for accessibility)", name: "imageAlt", widget: "string", i18n: true }
 
           - label: "What We Do"
             name: "whatWeDo"
@@ -77,6 +79,8 @@ collections:
             i18n: true
             fields:
               - { label: "Text (sand → glass → bottle line)", name: "text", widget: "text", i18n: true }
+              - { label: "Background image", name: "image", widget: "image", i18n: duplicate }
+              - { label: "Image description (alt text)", name: "imageAlt", widget: "string", i18n: true }
 
           - label: "Sectors Served"
             name: "sectors"
@@ -91,6 +95,8 @@ collections:
                 fields:
                   - { label: "Sector name", name: "name", widget: "string", i18n: true }
                   - { label: "Description", name: "description", widget: "text", i18n: true }
+                  - { label: "Image", name: "image", widget: "image", i18n: duplicate }
+                  - { label: "Image description (alt text)", name: "imageAlt", widget: "string", i18n: true }
 
           - label: "Product Families"
             name: "families"
@@ -152,6 +158,8 @@ collections:
                 fields:
                   - { label: "Title", name: "title", widget: "string", i18n: true }
                   - { label: "Description", name: "description", widget: "text", i18n: true }
+                  - { label: "Image", name: "image", widget: "image", i18n: duplicate }
+                  - { label: "Image description (alt text)", name: "imageAlt", widget: "string", i18n: true }
 
           - label: "Contact Section"
             name: "contact"

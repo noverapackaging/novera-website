@@ -1,27 +1,29 @@
 {
-  "seoTitle": "NOVERA — Premium Packaging Sourcing & Supply",
-  "seoDescription": "NOVERA helps spirits, food, fragrance and cosmetics brands source premium packaging: glass, closures, capsules and wood.",
+  "seoTitle": "NOVERA · Premium packaging for spirits, food and cosmetics",
+  "seoDescription": "Premium packaging sourcing & supply partner: glass, closures, capsules. We connect your brand to the finest European manufacturers.",
   "hero": {
     "eyebrow": "NOVERA",
-    "headline": "Elevating brands through packaging",
-    "intro": "We source and supply the premium packaging components that bring your products to life — from glass to closures, capsules and wood.",
-    "ctaLabel": "Contact",
-    "ctaHref": "/en/services/#contact"
+    "headline": "Elevating brands through packaging.",
+    "intro": "NOVERA is your premium packaging sourcing & supply partner. We connect spirits, gourmet food and cosmetics brands to the finest European glassmakers and manufacturers.",
+    "ctaLabel": "Get in touch",
+    "ctaHref": "/en/services/#contact",
+    "image": "/images/hero-bottle.jpg",
+    "imageAlt": "Neck of a dark glass bottle topped with a bronze capsule"
   },
   "whatWeDo": {
-    "heading": "What we do",
+    "heading": "MATERIALS · DESIGN · SOLUTIONS",
     "items": [
       {
         "label": "MATERIALS",
-        "description": "A network of suppliers selected for the quality and reliability of their raw materials."
+        "description": "Material is our starting point. From sand comes glass, from glass the bottle: we master the chain, from grain to finished product."
       },
       {
         "label": "DESIGN",
-        "description": "Creative support to translate your brand identity into a packaging object."
+        "description": "Aesthetic rigor and detail, in service of every brand. Formats, finishes, customization: we give your identity form."
       },
       {
         "label": "SOLUTIONS",
-        "description": "End-to-end project management, from brief to delivery."
+        "description": "An end-to-end service: sourcing, design, logistics. A single point of contact for all your packaging."
       }
     ]
   },
@@ -30,53 +32,61 @@
     "items": [
       {
         "title": "International",
-        "description": "A network of suppliers and partners spanning several continents.",
+        "description": "A global network of trusted partners, with local presence.",
         "icon": "globe"
       },
       {
         "title": "Excellence",
-        "description": "A constant standard of quality in materials and finish.",
+        "description": "Premium products, rigorously selected, with a tailor-made service.",
         "icon": "star"
       },
       {
         "title": "Reactivity",
-        "description": "Teams that are available, with well-managed lead times at every step.",
+        "description": "A fast, reliable answer at every step: the advantage of an agile partner.",
         "icon": "bolt"
       },
       {
         "title": "Sustainability",
-        "description": "Material and process choices designed to reduce our impact.",
+        "description": "Responsible choices, for a sustainable future.",
         "icon": "leaf"
       }
     ]
   },
   "story": {
-    "text": "It all starts with matter. From sand comes glass, from glass comes the bottle."
+    "text": "It all begins with material. From sand comes glass, from glass the bottle, the object that carries a brand.",
+    "image": "/images/story-sand.jpg",
+    "imageAlt": "Sand dune in warm light"
   },
   "sectors": {
     "heading": "Sectors we serve",
     "items": [
       {
         "name": "Spirits",
-        "description": "Bottles and closures for spirits houses and distilleries."
+        "description": "Bottles and closures for spirits houses and distilleries.",
+        "image": "/images/sector-spirits.jpg",
+        "imageAlt": "Cut whisky glass on a wooden table"
       },
       {
-        "name": "Food",
-        "description": "Glass containers for fine grocery and gourmet products."
+        "name": "Gourmet food",
+        "description": "Glass containers for fine grocery and gourmet products.",
+        "image": "/images/sector-food.jpg",
+        "imageAlt": "Glass olive oil bottles with cork stoppers"
       },
       {
-        "name": "Fragrance & Cosmetics",
-        "description": "Flacons and accessories for beauty and fragrance brands."
+        "name": "Fragrance & cosmetics",
+        "description": "Flacons and accessories for beauty and fragrance brands.",
+        "image": "/images/sector-fragrance.jpg",
+        "imageAlt": "Sculpted glass perfume flacons"
       }
     ]
   },
   "families": {
-    "heading": "Product families",
+    "heading": "Our product families",
     "items": [
-      { "name": "Glass", "description": "Custom or catalogue bottles and flacons." },
-      { "name": "Closures", "description": "Corks, screw caps and closure systems." },
-      { "name": "Capsules", "description": "Customisable PVC and shrink capsules." },
-      { "name": "Wood", "description": "Wooden tops and elements for a premium finish." }
+      { "name": "Glass", "description": "Glass components: bottles and flacons, standard or bespoke formats." },
+      { "name": "Closures", "description": "Closures and stoppering systems: bartops, screw caps, pourers, reducers." },
+      { "name": "Capsules", "description": "Shrink PVC capsules and overcaps, for a clean finish." },
+      { "name": "Wood", "description": "Wood tops and stoppers, co-injected, for a high-end feel." }
     ]
   }
 }

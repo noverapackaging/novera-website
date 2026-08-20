@@ -1,50 +1,58 @@
 {
-  "seoTitle": "Servizi — NOVERA",
-  "seoDescription": "Sourcing, design e logistica: scoprite come NOVERA gestisce il vostro progetto di packaging end-to-end.",
+  "seoTitle": "Servizi · Sourcing, design e logistica del packaging · NOVERA",
+  "seoDescription": "Dalla specifica alla consegna: sourcing, design e logistica. Un unico partner per tutto il packaging premium.",
   "hero": {
     "heading": "I nostri servizi",
-    "intro": "Dalla materia prima alla consegna, seguiamo ogni fase del vostro progetto di packaging."
+    "intro": "Un accompagnamento end-to-end, dalla definizione dell'esigenza alla consegna. Un unico partner per tutto il tuo packaging."
   },
   "process": {
     "heading": "Dalla fonte alla soluzione",
     "items": [
       {
         "title": "Sourcing",
-        "description": "Individuazione e selezione dei fornitori più adatti al vostro capitolato, ai volumi e al budget."
+        "description": "Individuiamo il produttore giusto per ogni specifica, inclusi formati e chiusure introvabili altrove. Consolidi i fornitori e guadagni coerenza."
       },
       {
         "title": "Design",
-        "description": "Supporto su forma, materiale e finitura per un packaging fedele alla vostra identità di marchio."
+        "description": "Schede tecniche, BAT, personalizzazione, posizionamento del logo: definiamo ogni dettaglio prima della produzione, per un risultato perfetto già dal primo lotto."
       },
       {
         "title": "Logistica",
-        "description": "Coordinamento di trasporto, tempistiche e stoccaggio per una consegna affidabile, ovunque voi siate."
+        "description": "Gestiamo trasporto, dogana e consegna, con possibilità di stock cuscinetto e consegne a richiesta. Sei sempre puntuale, senza immobilizzare cassa."
       }
     ]
   },
   "families": {
-    "heading": "Famiglie di prodotto",
+    "heading": "Le nostre famiglie di prodotto",
     "items": [
       {
-        "title": "Componenti in vetro",
-        "description": "Bottiglie, flaconi e vasetti a catalogo o su misura, in un'ampia gamma di colori e finiture."
+        "title": "Componenti vetro",
+        "description": "Bottiglie e flaconi, formati standard o su misura, in un'ampia gamma di colori e finiture.",
+        "image": "/images/family-glass.jpg",
+        "imageAlt": "Bottiglia in vetro verde su fondo neutro"
       },
       {
-        "title": "Chiusure",
-        "description": "Tappi in sughero e sintetici, capsule a vite, sistemi di chiusura per ogni contenitore."
+        "title": "Tappi",
+        "description": "Tappi e sistemi di chiusura: bartop, a vite, versatori, riduttori.",
+        "image": "/images/family-closures.jpg",
+        "imageAlt": "Tappi di sughero sfusi"
       },
       {
         "title": "Capsule PVC / termoretraibili",
-        "description": "Capsule di sigillo personalizzabili, stampate nei vostri colori, per una finitura curata."
+        "description": "Capsule PVC termoretraibili e sovratappi, per una finitura netta.",
+        "image": "/images/family-capsules.jpg",
+        "imageAlt": "Capsula color bronzo sul collo di una bottiglia scura"
       },
       {
-        "title": "Testine in legno",
-        "description": "Elementi in legno naturale o laccato per un tocco premium e sostenibile sulla chiusura."
+        "title": "Teste in legno",
+        "description": "Teste e tappi in legno, co-iniettati, per un risultato di alta gamma.",
+        "image": "/images/family-wood.jpg",
+        "imageAlt": "Venatura di un legno scuro"
       }
     ]
   },
   "contact": {
-    "heading": "Parliamo del vostro progetto",
+    "heading": "Un progetto di packaging? Parliamone.",
     "description": "Una domanda, un capitolato, una richiesta di preventivo? Scriveteci, il nostro team risponde entro 48 ore.",
     "formLabels": {
       "name": "Nome",

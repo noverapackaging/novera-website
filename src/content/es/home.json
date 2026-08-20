@@ -1,27 +1,29 @@
 {
-  "seoTitle": "NOVERA — Sourcing y suministro de packaging premium",
-  "seoDescription": "NOVERA acompaña a marcas de bebidas espirituosas, alimentación, perfumería y cosmética en el sourcing de su packaging: vidrio, cierres, cápsulas y madera.",
+  "seoTitle": "NOVERA · Packaging premium para espirituosos, alimentación y cosmética",
+  "seoDescription": "Partner de sourcing y suministro en packaging premium: vidrio, tapones, cápsulas. Conectamos tu marca con los mejores fabricantes europeos.",
   "hero": {
     "eyebrow": "NOVERA",
-    "headline": "El packaging que eleva tu marca",
-    "intro": "Buscamos y suministramos los componentes de packaging premium que dan vida a vuestros productos — del vidrio a los cierres, pasando por las cápsulas y la madera.",
-    "ctaLabel": "Contacto",
-    "ctaHref": "/es/services/#contact"
+    "headline": "El packaging que eleva tu marca.",
+    "intro": "NOVERA es tu partner de sourcing y suministro en packaging premium. Conectamos las marcas de espirituosos, gastronomía y cosmética con los mejores vidrieros y fabricantes europeos.",
+    "ctaLabel": "Contáctanos",
+    "ctaHref": "/es/services/#contact",
+    "image": "/images/hero-bottle.jpg",
+    "imageAlt": "Cuello de una botella de vidrio oscuro con cápsula color bronce"
   },
   "whatWeDo": {
-    "heading": "Qué hacemos",
+    "heading": "MATERIALS · DESIGN · SOLUTIONS",
     "items": [
       {
-        "label": "MATERIALES",
-        "description": "Una red de proveedores seleccionados por la calidad y fiabilidad de sus materias primas."
+        "label": "MATERIALS",
+        "description": "La materia, nuestro punto de origen. De la arena nace el vidrio, del vidrio la botella: dominamos la cadena, del grano al producto acabado."
       },
       {
-        "label": "DISEÑO",
-        "description": "Un acompañamiento creativo para traducir la identidad de vuestra marca en un objeto de packaging."
+        "label": "DESIGN",
+        "description": "Rigor estético y detalle, al servicio de cada marca. Formatos, acabados, personalización: damos forma a tu identidad."
       },
       {
-        "label": "SOLUCIONES",
-        "description": "Una gestión de proyecto de principio a fin, desde el briefing hasta la entrega."
+        "label": "SOLUTIONS",
+        "description": "Un servicio integral: sourcing, diseño, logística. Un único interlocutor para todo tu packaging."
       }
     ]
   },
@@ -30,53 +32,61 @@
     "items": [
       {
         "title": "Internacional",
-        "description": "Una red de proveedores y socios presentes en varios continentes.",
+        "description": "Una red global de socios de confianza, con presencia local.",
         "icon": "globe"
       },
       {
         "title": "Excelencia",
-        "description": "Una exigencia constante sobre la calidad de los materiales y el acabado.",
+        "description": "Productos premium, seleccionados con exigencia, un servicio a medida.",
         "icon": "star"
       },
       {
         "title": "Reactividad",
-        "description": "Equipos disponibles y plazos controlados en cada etapa del proyecto.",
+        "description": "Una respuesta rápida y fiable en cada etapa: la ventaja de un partner ágil.",
         "icon": "bolt"
       },
       {
         "title": "Sostenibilidad",
-        "description": "Elecciones de materiales y procesos pensadas para reducir nuestro impacto.",
+        "description": "Decisiones responsables, para un futuro sostenible.",
         "icon": "leaf"
       }
     ]
   },
   "story": {
-    "text": "Todo empieza con la materia. De la arena nace el vidrio, del vidrio nace la botella."
+    "text": "Todo comienza con la materia. De la arena nace el vidrio, del vidrio la botella, el objeto que lleva una marca.",
+    "image": "/images/story-sand.jpg",
+    "imageAlt": "Duna de arena bajo una luz cálida"
   },
   "sectors": {
-    "heading": "Sectores a los que servimos",
+    "heading": "Sectores que atendemos",
     "items": [
       {
-        "name": "Bebidas espirituosas",
-        "description": "Botellas y cierres para casas de bebidas espirituosas y destilerías."
+        "name": "Espirituosos",
+        "description": "Botellas y cierres para casas de bebidas espirituosas y destilerías.",
+        "image": "/images/sector-spirits.jpg",
+        "imageAlt": "Vaso de whisky tallado sobre una mesa de madera"
       },
       {
-        "name": "Alimentación",
-        "description": "Envases de vidrio para productos gourmet y de alta gama."
+        "name": "Gastronomía",
+        "description": "Envases de vidrio para productos gourmet y de alta gama.",
+        "image": "/images/sector-food.jpg",
+        "imageAlt": "Botellas de aceite de oliva de vidrio con tapón de corcho"
       },
       {
         "name": "Perfumería y cosmética",
-        "description": "Frascos y accesorios para marcas de belleza y perfumería."
+        "description": "Frascos y accesorios para marcas de belleza y perfumería.",
+        "image": "/images/sector-fragrance.jpg",
+        "imageAlt": "Frascos de perfume de vidrio labrado"
       }
     ]
   },
   "families": {
-    "heading": "Familias de producto",
+    "heading": "Nuestras familias de producto",
     "items": [
-      { "name": "Vidrio", "description": "Botellas y frascos a medida o de catálogo." },
-      { "name": "Cierres", "description": "Tapones, cápsulas roscadas y sistemas de cierre." },
-      { "name": "Cápsulas", "description": "Cápsulas de PVC y termorretráctiles, personalizables." },
-      { "name": "Madera", "description": "Remates y elementos de madera para un acabado premium." }
+      { "name": "Vidrio", "description": "Componentes de vidrio: botellas y frascos, formatos estándar o a medida." },
+      { "name": "Tapones", "description": "Tapones y sistemas de cierre: bartops, de rosca, vertedores, reductores." },
+      { "name": "Cápsulas", "description": "Cápsulas de PVC termorretráctiles y sobretapas, para un acabado limpio." },
+      { "name": "Madera", "description": "Cabezas y tapones de madera, coinyectados, para un acabado de alta gama." }
     ]
   }
 }

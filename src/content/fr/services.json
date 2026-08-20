@@ -1,50 +1,58 @@
 {
-  "seoTitle": "Services — NOVERA",
-  "seoDescription": "Sourcing, design et logistique : découvrez comment NOVERA gère votre projet de packaging de bout en bout.",
+  "seoTitle": "Services · Sourcing, design et logistique packaging · NOVERA",
+  "seoDescription": "De la spécification à la livraison : sourcing, design et logistique. Un seul partenaire pour tout votre packaging premium.",
   "hero": {
     "heading": "Nos services",
-    "intro": "De la matière première à la livraison, nous prenons en charge chaque étape de votre projet de packaging."
+    "intro": "Un accompagnement de bout en bout, de la définition du besoin à la livraison. Un seul partenaire pour l'ensemble de votre packaging."
   },
   "process": {
     "heading": "De la source à la solution",
     "items": [
       {
         "title": "Sourcing",
-        "description": "Identification et sélection des fournisseurs les plus adaptés à votre cahier des charges, votre volume et votre budget."
+        "description": "Nous identifions le bon fabricant pour chaque spécification, y compris les formats et fermetures introuvables ailleurs. Vous consolidez vos fournisseurs et gagnez en cohérence."
       },
       {
         "title": "Design",
-        "description": "Accompagnement sur la forme, la matière et la finition pour un packaging fidèle à votre identité de marque."
+        "description": "Fiches techniques, BAT, personnalisation, positionnement du logo : nous cadrons chaque détail avant production, pour un résultat parfait dès le premier lot."
       },
       {
         "title": "Logistique",
-        "description": "Coordination du transport, des délais et du stockage pour une livraison fiable, où que vous soyez."
+        "description": "Nous pilotons transport, douane et livraison, avec possibilité de stock tampon et livraisons à la demande. Vous êtes toujours à l'heure, sans immobiliser de trésorerie."
       }
     ]
   },
   "families": {
-    "heading": "Familles de produits",
+    "heading": "Nos familles de produits",
     "items": [
       {
         "title": "Composants verre",
-        "description": "Bouteilles, flacons et pots sur catalogue ou sur-mesure, dans une large gamme de teintes et de finitions."
+        "description": "Bouteilles et flacons, formats standard ou sur-mesure, dans une large gamme de teintes et de finitions.",
+        "image": "/images/family-glass.jpg",
+        "imageAlt": "Bouteille en verre vert sur fond neutre"
       },
       {
-        "title": "Bouchage",
-        "description": "Bouchons liège et synthétiques, capsules à vis, systèmes de fermeture adaptés à chaque contenant."
+        "title": "Bouchons",
+        "description": "Bouchons et systèmes de fermeture : bartops, à vis, verseurs, réducteurs.",
+        "image": "/images/family-closures.jpg",
+        "imageAlt": "Bouchons de liège en vrac"
       },
       {
         "title": "Capsules PVC / thermorétractables",
-        "description": "Capsules de scellage personnalisables, imprimées à vos couleurs, pour une finition soignée."
+        "description": "Capsules PVC thermorétractables et surbouchages, pour une finition nette.",
+        "image": "/images/family-capsules.jpg",
+        "imageAlt": "Capsule bronze sur le col d'une bouteille sombre"
       },
       {
         "title": "Coiffes bois",
-        "description": "Éléments en bois naturel ou laqué pour une touche premium et durable sur votre bouchage."
+        "description": "Têtes et bouchons bois, co-injectés, pour un rendu haut de gamme.",
+        "image": "/images/family-wood.jpg",
+        "imageAlt": "Veinage d'un bois sombre"
       }
     ]
   },
   "contact": {
-    "heading": "Parlons de votre projet",
+    "heading": "Un projet de packaging ? Parlons-en.",
     "description": "Une question, un cahier des charges, un besoin de devis ? Écrivez-nous, notre équipe vous répond sous 48h.",
     "formLabels": {
       "name": "Nom",
