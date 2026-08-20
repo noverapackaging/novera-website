@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 32" width="160" height="32" role="img" aria-label="NOVERA">
-  <!-- PLACEHOLDER LOGO — replace this file with your real wordmark export.
-       See README.md > "Logo & favicon" for the exact filename to reuse. -->
-  <text x="0" y="23" font-family="'Satoshi', Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#F3F0E9">NOVERA</text>
-  <rect x="0" y="28" width="28" height="2" fill="#A47B4F" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475 155" width="475" height="155"><style>@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&amp;display=swap');.w{font-family:Manrope,sans-serif;font-weight:400;font-size:100px}.pk{font-family:Manrope,sans-serif;font-weight:400;font-size:15px;letter-spacing:9px}</style><text x="55" y="112" text-anchor="middle" fill="#F3F0E9" class="w">N</text><text x="128" y="112" text-anchor="middle" fill="#F3F0E9" class="w">O</text><text x="201" y="112" text-anchor="middle" fill="#F3F0E9" class="w">V</text><rect x="248" y="40" width="52" height="6" rx="1.2" fill="#A47B4F"/><rect x="253" y="73" width="42" height="6" rx="1.2" fill="#A47B4F"/><rect x="248" y="106" width="52" height="6" rx="1.2" fill="#A47B4F"/><text x="347" y="112" text-anchor="middle" fill="#F3F0E9" class="w">R</text><text x="420" y="112" text-anchor="middle" fill="#F3F0E9" class="w">A</text><text x="237" y="145" text-anchor="middle" fill="#C9BBA5" class="pk">PACKAGING</text></svg>

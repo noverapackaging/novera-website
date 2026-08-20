@@ -8,7 +8,7 @@ interface Props {
     tagline: string;
     addressLines: string[];
     email: string;
-    phone: string;
+    phones: string[];
     legal: { line1: string; line2: string; line3: string };
     copyright: string;
   };
@@ -30,7 +30,9 @@ const copyright = footer.copyright.replace('{year}', String(new Date().getFullYe
       <address class="mt-3 not-italic leading-relaxed text-warm-ivory/80">
         {footer.addressLines.map((line) => <span class="block">{line}</span>)}
         <a href={`mailto:${footer.email}`} class="mt-2 block hover:text-bronze">{footer.email}</a>
-        <a href={`tel:${footer.phone.replace(/\s+/g, '')}`} class="block hover:text-bronze">{footer.phone}</a>
+        {footer.phones.map((phone) => (
+          <a href={`tel:${phone.replace(/[^+\d]/g, '')}`} class="block hover:text-bronze">{phone}</a>
+        ))}
       </address>
     </div>
 

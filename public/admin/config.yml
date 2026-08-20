@@ -189,7 +189,12 @@ collections:
             allow_add: true
             hint: "One line of the postal address per entry."
           - { label: "Contact email", name: "email", widget: "string", i18n: duplicate }
-          - { label: "Contact phone", name: "phone", widget: "string", i18n: duplicate }
+          - label: "Phone numbers"
+            name: "phones"
+            widget: "list"
+            i18n: duplicate
+            allow_add: true
+            hint: "One phone number per entry, e.g. +33 7 81 99 32 48"
           - label: "Legal mentions"
             name: "legal"
             widget: "object"

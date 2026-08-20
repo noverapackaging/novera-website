@@ -139,17 +139,27 @@ to switch — it only needs to change in that one place.
 
 ---
 
-## 6. Logo & favicon — files to replace
+## 6. Logo & favicon
 
-The site currently ships with **placeholder** graphics so nothing looks
-broken. Replace them with your real assets, keeping the exact same
-filenames so nothing else needs to change:
+Your real brand assets are already in place:
 
-| Replace this file | With | Used for |
+| File | What it is | Used for |
 |---|---|---|
-| `public/images/novera-wordmark.svg` | your primary logo/wordmark (SVG preferred, PNG also works if you update the filename in `src/components/Header.astro`) | Header logo |
-| `public/images/favicon.svg` | your NVR emblem (SVG or PNG — if PNG, update the `<link rel="icon">` line in `src/layouts/BaseLayout.astro`) | Browser tab icon |
-| `public/images/novera-og.jpg` | a 1200×630px image (add this file — it doesn't exist yet) | Preview image when the site is shared on social media / messaging apps |
+| `public/images/novera-wordmark.svg` | the NOVERA wordmark, ivory-on-transparent | Header logo |
+| `public/images/favicon.svg` | the NVR emblem (vector) | Browser tab icon |
+| `public/images/favicon.png` | the NVR emblem (64×64 raster) | Browser tab icon fallback for older browsers |
+
+Note: the wordmark file's text uses the **Manrope** font (loaded from
+Google Fonts) — that's separate from Satoshi/Mulish used in the rest of
+the site, and only affects the logo graphic itself, so nothing to worry
+about there. If you ever replace this file, keep the same filename and
+nothing else needs to change.
+
+Still missing — add this when you have it:
+
+| File | What it is | Used for |
+|---|---|---|
+| `public/images/novera-og.jpg` | a 1200×630px image (doesn't exist yet) | Preview image when the site is shared on social media / messaging apps |
 
 You can drop files directly into `public/images/` via GitHub, or upload
 them through the CMS's media picker once Identity/Git Gateway is set up
