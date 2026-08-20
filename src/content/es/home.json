@@ -1,10 +1,10 @@
 {
-  "seoTitle": "NOVERA · Packaging premium para espirituosos, alimentación y cosmética",
+  "seoTitle": "NOVERA · Packaging premium para espirituosos, vino y alimentación",
   "seoDescription": "Partner de sourcing y suministro en packaging premium: vidrio, tapones, cápsulas. Conectamos tu marca con los mejores fabricantes europeos.",
   "hero": {
     "eyebrow": "NOVERA",
     "headline": "El packaging que eleva tu marca.",
-    "intro": "NOVERA es tu partner de sourcing y suministro en packaging premium. Conectamos las marcas de espirituosos, gastronomía y cosmética con los mejores vidrieros y fabricantes europeos.",
+    "intro": "NOVERA es tu partner de sourcing y suministro en packaging premium. Conectamos las marcas de espirituosos, vino y gastronomía con los mejores vidrieros y fabricantes europeos.",
     "ctaLabel": "Contáctanos",
     "ctaHref": "/es/services/#contact",
     "image": "/images/hero-bottle.jpg",
@@ -73,20 +73,20 @@
         "imageAlt": "Botellas de aceite de oliva de vidrio con tapón de corcho"
       },
       {
-        "name": "Perfumería y cosmética",
-        "description": "Frascos y accesorios para marcas de belleza y perfumería.",
-        "image": "/images/sector-fragrance.jpg",
-        "imageAlt": "Frascos de perfume de vidrio labrado"
+        "name": "Vino",
+        "description": "Botellas, tapones y cápsulas para bodegas y casas de vino.",
+        "image": "/images/sector-wine.jpg",
+        "imageAlt": "Botellas de vino con cápsula reposando en una bodega"
       }
     ]
   },
   "families": {
     "heading": "Nuestras familias de producto",
     "items": [
+      { "name": "Tapones", "description": "Tapones y sistemas de cierre, de todo tipo: bartops, de rosca, vertedores, reductores." },
       { "name": "Vidrio", "description": "Componentes de vidrio: botellas y frascos, formatos estándar o a medida." },
-      { "name": "Tapones", "description": "Tapones y sistemas de cierre: bartops, de rosca, vertedores, reductores." },
-      { "name": "Cápsulas", "description": "Cápsulas de PVC termorretráctiles y sobretapas, para un acabado limpio." },
-      { "name": "Madera", "description": "Cabezas y tapones de madera, coinyectados, para un acabado de alta gama." }
+      { "name": "Cápsulas termorretráctiles", "description": "Cápsulas de PVC termorretráctiles y sobretapas, para un acabado limpio." },
+      { "name": "Decoración y personalización", "description": "Serigrafía, dorado, lacado: creamos productos bespoke a imagen de tu marca." }
     ]
   }
 }

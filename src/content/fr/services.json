@@ -26,28 +26,28 @@
     "heading": "Nos familles de produits",
     "items": [
       {
+        "title": "Bouchons",
+        "description": "Bouchons et systèmes de fermeture, tous types : bartops, à vis, verseurs, réducteurs.",
+        "image": "/images/family-closures.jpg",
+        "imageAlt": "Bouchons de liège en vrac"
+      },
+      {
         "title": "Composants verre",
         "description": "Bouteilles et flacons, formats standard ou sur-mesure, dans une large gamme de teintes et de finitions.",
         "image": "/images/family-glass.jpg",
         "imageAlt": "Bouteille en verre vert sur fond neutre"
       },
       {
-        "title": "Bouchons",
-        "description": "Bouchons et systèmes de fermeture : bartops, à vis, verseurs, réducteurs.",
-        "image": "/images/family-closures.jpg",
-        "imageAlt": "Bouchons de liège en vrac"
-      },
-      {
-        "title": "Capsules PVC / thermorétractables",
+        "title": "Capsules thermorétractables",
         "description": "Capsules PVC thermorétractables et surbouchages, pour une finition nette.",
         "image": "/images/family-capsules.jpg",
         "imageAlt": "Capsule bronze sur le col d'une bouteille sombre"
       },
       {
-        "title": "Coiffes bois",
-        "description": "Têtes et bouchons bois, co-injectés, pour un rendu haut de gamme.",
-        "image": "/images/family-wood.jpg",
-        "imageAlt": "Veinage d'un bois sombre"
+        "title": "Décor & personnalisation",
+        "description": "Sérigraphie, dorure, laquage : nous créons des produits bespoke à l'image de votre marque.",
+        "image": "/images/family-decoration.jpg",
+        "imageAlt": "Flacons en verre travaillé et personnalisé"
       }
     ]
   },

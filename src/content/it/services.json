@@ -26,28 +26,28 @@
     "heading": "Le nostre famiglie di prodotto",
     "items": [
       {
+        "title": "Tappi",
+        "description": "Tappi e sistemi di chiusura, di ogni tipo: bartop, a vite, versatori, riduttori.",
+        "image": "/images/family-closures.jpg",
+        "imageAlt": "Tappi di sughero sfusi"
+      },
+      {
         "title": "Componenti vetro",
         "description": "Bottiglie e flaconi, formati standard o su misura, in un'ampia gamma di colori e finiture.",
         "image": "/images/family-glass.jpg",
         "imageAlt": "Bottiglia in vetro verde su fondo neutro"
       },
       {
-        "title": "Tappi",
-        "description": "Tappi e sistemi di chiusura: bartop, a vite, versatori, riduttori.",
-        "image": "/images/family-closures.jpg",
-        "imageAlt": "Tappi di sughero sfusi"
-      },
-      {
-        "title": "Capsule PVC / termoretraibili",
+        "title": "Capsule termoretraibili",
         "description": "Capsule PVC termoretraibili e sovratappi, per una finitura netta.",
         "image": "/images/family-capsules.jpg",
         "imageAlt": "Capsula color bronzo sul collo di una bottiglia scura"
       },
       {
-        "title": "Teste in legno",
-        "description": "Teste e tappi in legno, co-iniettati, per un risultato di alta gamma.",
-        "image": "/images/family-wood.jpg",
-        "imageAlt": "Venatura di un legno scuro"
+        "title": "Decorazione & personalizzazione",
+        "description": "Serigrafia, doratura, laccatura: creiamo prodotti bespoke a immagine del tuo marchio.",
+        "image": "/images/family-decoration.jpg",
+        "imageAlt": "Flaconi in vetro lavorato e personalizzato"
       }
     ]
   },

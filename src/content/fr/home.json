@@ -1,10 +1,10 @@
 {
-  "seoTitle": "NOVERA · Packaging premium pour spiritueux, gastronomie et cosmétique",
+  "seoTitle": "NOVERA · Packaging premium pour spiritueux, vin et gastronomie",
   "seoDescription": "Sourcing & supply partner en packaging premium : verre, bouchons, capsules. Nous relions votre marque aux meilleurs fabricants européens.",
   "hero": {
     "eyebrow": "NOVERA",
     "headline": "Le packaging qui élève votre marque.",
-    "intro": "NOVERA est votre sourcing & supply partner en packaging premium. Nous relions les marques de spiritueux, gastronomie et cosmétique aux meilleurs verriers et fabricants européens.",
+    "intro": "NOVERA est votre sourcing & supply partner en packaging premium. Nous relions les marques de spiritueux, vin et gastronomie aux meilleurs verriers et fabricants européens.",
     "ctaLabel": "Nous contacter",
     "ctaHref": "/fr/services/#contact",
     "image": "/images/hero-bottle.jpg",
@@ -73,20 +73,20 @@
         "imageAlt": "Bouteilles d'huile d'olive en verre avec bouchon liège"
       },
       {
-        "name": "Parfum & cosmétique",
-        "description": "Flaconnage et accessoires pour les marques de beauté et de parfumerie.",
-        "image": "/images/sector-fragrance.jpg",
-        "imageAlt": "Flacons de parfum en verre travaillé"
+        "name": "Vin",
+        "description": "Bouteilles, bouchons et capsules pour caves et maisons de vin.",
+        "image": "/images/sector-wine.jpg",
+        "imageAlt": "Bouteilles de vin coiffées de capsules dans une cave"
       }
     ]
   },
   "families": {
     "heading": "Nos familles de produits",
     "items": [
+      { "name": "Bouchons", "description": "Bouchons et systèmes de fermeture, tous types : bartops, à vis, verseurs, réducteurs." },
       { "name": "Verre", "description": "Composants verre : bouteilles et flacons, formats standard ou sur-mesure." },
-      { "name": "Bouchons", "description": "Bouchons et systèmes de fermeture : bartops, à vis, verseurs, réducteurs." },
-      { "name": "Capsules", "description": "Capsules PVC thermorétractables et surbouchages, pour une finition nette." },
-      { "name": "Bois", "description": "Têtes et bouchons bois, co-injectés, pour un rendu haut de gamme." }
+      { "name": "Capsules thermorétractables", "description": "Capsules PVC thermorétractables et surbouchages, pour une finition nette." },
+      { "name": "Décor & personnalisation", "description": "Sérigraphie, dorure, laquage : nous créons des produits bespoke à l'image de votre marque." }
     ]
   }
 }

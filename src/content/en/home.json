@@ -1,10 +1,10 @@
 {
-  "seoTitle": "NOVERA · Premium packaging for spirits, food and cosmetics",
+  "seoTitle": "NOVERA · Premium packaging for spirits, wine and food",
   "seoDescription": "Premium packaging sourcing & supply partner: glass, closures, capsules. We connect your brand to the finest European manufacturers.",
   "hero": {
     "eyebrow": "NOVERA",
     "headline": "Elevating brands through packaging.",
-    "intro": "NOVERA is your premium packaging sourcing & supply partner. We connect spirits, gourmet food and cosmetics brands to the finest European glassmakers and manufacturers.",
+    "intro": "NOVERA is your premium packaging sourcing & supply partner. We connect spirits, wine and gourmet food brands to the finest European glassmakers and manufacturers.",
     "ctaLabel": "Get in touch",
     "ctaHref": "/en/services/#contact",
     "image": "/images/hero-bottle.jpg",
@@ -73,20 +73,20 @@
         "imageAlt": "Glass olive oil bottles with cork stoppers"
       },
       {
-        "name": "Fragrance & cosmetics",
-        "description": "Flacons and accessories for beauty and fragrance brands.",
-        "image": "/images/sector-fragrance.jpg",
-        "imageAlt": "Sculpted glass perfume flacons"
+        "name": "Wine",
+        "description": "Bottles, closures and capsules for wineries and wine houses.",
+        "image": "/images/sector-wine.jpg",
+        "imageAlt": "Capsule-topped wine bottles resting in a cellar"
       }
     ]
   },
   "families": {
     "heading": "Our product families",
     "items": [
+      { "name": "Closures", "description": "Closures and stoppering systems, all types: bartops, screw caps, pourers, reducers." },
       { "name": "Glass", "description": "Glass components: bottles and flacons, standard or bespoke formats." },
-      { "name": "Closures", "description": "Closures and stoppering systems: bartops, screw caps, pourers, reducers." },
-      { "name": "Capsules", "description": "Shrink PVC capsules and overcaps, for a clean finish." },
-      { "name": "Wood", "description": "Wood tops and stoppers, co-injected, for a high-end feel." }
+      { "name": "Shrink capsules", "description": "Shrink PVC capsules and overcaps, for a clean finish." },
+      { "name": "Decoration & customization", "description": "Screen printing, gilding, lacquering: we create bespoke products in your brand's image." }
     ]
   }
 }

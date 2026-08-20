@@ -1,10 +1,10 @@
 {
-  "seoTitle": "NOVERA · Packaging premium per spirits, gastronomia e cosmetica",
+  "seoTitle": "NOVERA · Packaging premium per spirits, vino e gastronomia",
   "seoDescription": "Sourcing & supply partner nel packaging premium: vetro, tappi, capsule. Colleghiamo il tuo marchio ai migliori produttori europei.",
   "hero": {
     "eyebrow": "NOVERA",
     "headline": "Il packaging che valorizza il tuo marchio.",
-    "intro": "NOVERA è il tuo sourcing & supply partner nel packaging premium. Colleghiamo i marchi di spirits, gastronomia e cosmetica ai migliori vetrai e produttori europei.",
+    "intro": "NOVERA è il tuo sourcing & supply partner nel packaging premium. Colleghiamo i marchi di spirits, vino e gastronomia ai migliori vetrai e produttori europei.",
     "ctaLabel": "Contattaci",
     "ctaHref": "/it/services/#contact",
     "image": "/images/hero-bottle.jpg",
@@ -73,20 +73,20 @@
         "imageAlt": "Bottiglie d'olio d'oliva in vetro con tappo in sughero"
       },
       {
-        "name": "Profumeria & cosmetica",
-        "description": "Flaconi e accessori per marchi di bellezza e profumeria.",
-        "image": "/images/sector-fragrance.jpg",
-        "imageAlt": "Flaconi di profumo in vetro lavorato"
+        "name": "Vino",
+        "description": "Bottiglie, tappi e capsule per cantine e case vinicole.",
+        "image": "/images/sector-wine.jpg",
+        "imageAlt": "Bottiglie di vino con capsula adagiate in una cantina"
       }
     ]
   },
   "families": {
     "heading": "Le nostre famiglie di prodotto",
     "items": [
+      { "name": "Tappi", "description": "Tappi e sistemi di chiusura, di ogni tipo: bartop, a vite, versatori, riduttori." },
       { "name": "Vetro", "description": "Componenti vetro: bottiglie e flaconi, formati standard o su misura." },
-      { "name": "Tappi", "description": "Tappi e sistemi di chiusura: bartop, a vite, versatori, riduttori." },
-      { "name": "Capsule", "description": "Capsule PVC termoretraibili e sovratappi, per una finitura netta." },
-      { "name": "Legno", "description": "Teste e tappi in legno, co-iniettati, per un risultato di alta gamma." }
+      { "name": "Capsule termoretraibili", "description": "Capsule PVC termoretraibili e sovratappi, per una finitura netta." },
+      { "name": "Decorazione & personalizzazione", "description": "Serigrafia, doratura, laccatura: creiamo prodotti bespoke a immagine del tuo marchio." }
     ]
   }
 }
