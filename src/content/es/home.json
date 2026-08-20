@@ -1,5 +1,5 @@
 {
-  "seoTitle": "NOVERA · Packaging premium para espirituosos, vino y alimentación",
+  "seoTitle": "NOVERA · Packaging premium para espirituosos, vino y gastronomía",
   "seoDescription": "Partner de sourcing y suministro en packaging premium: vidrio, tapones, cápsulas. Conectamos tu marca con los mejores fabricantes europeos.",
   "hero": {
     "eyebrow": "NOVERA",
@@ -62,31 +62,43 @@
     "items": [
       {
         "name": "Espirituosos",
-        "description": "Botellas y cierres para casas de bebidas espirituosas y destilerías.",
+        "description": "Botellas y cierres para casas de espirituosos y destilerías.",
         "image": "/images/sector-spirits.jpg",
-        "imageAlt": "Vaso de whisky tallado sobre una mesa de madera"
-      },
-      {
-        "name": "Gastronomía",
-        "description": "Envases de vidrio para productos gourmet y de alta gama.",
-        "image": "/images/sector-food.jpg",
-        "imageAlt": "Botellas de aceite de oliva de vidrio con tapón de corcho"
+        "imageAlt": "Botella de espirituosos de vidrio oscuro con cápsula color bronce"
       },
       {
         "name": "Vino",
         "description": "Botellas, tapones y cápsulas para bodegas y casas de vino.",
         "image": "/images/sector-wine.jpg",
         "imageAlt": "Botellas de vino con cápsula reposando en una bodega"
+      },
+      {
+        "name": "Gastronomía",
+        "description": "Envases de vidrio para delicatessen y productos gourmet.",
+        "image": "/images/sector-food.jpg",
+        "imageAlt": "Botellas de aceite de oliva de vidrio con tapón de corcho"
       }
     ]
   },
   "families": {
     "heading": "Nuestras familias de producto",
     "items": [
-      { "name": "Tapones", "description": "Tapones y sistemas de cierre, de todo tipo: bartops, de rosca, vertedores, reductores." },
-      { "name": "Vidrio", "description": "Componentes de vidrio: botellas y frascos, formatos estándar o a medida." },
-      { "name": "Cápsulas termorretráctiles", "description": "Cápsulas de PVC termorretráctiles y sobretapas, para un acabado limpio." },
-      { "name": "Decoración y personalización", "description": "Serigrafía, dorado, lacado: creamos productos bespoke a imagen de tu marca." }
+      {
+        "name": "Vidrio",
+        "description": "Componentes de vidrio: botellas y frascos, formatos estándar o a medida."
+      },
+      {
+        "name": "Tapones",
+        "description": "Tapones y sistemas de cierre: bartops, cabezas de madera, de rosca, vertedores, reductores."
+      },
+      {
+        "name": "Cápsulas",
+        "description": "Cápsulas de PVC termorretráctiles y sobretapas, para un acabado limpio."
+      },
+      {
+        "name": "Diseño y decoración",
+        "description": "Serigrafía, dorado, lacado, personalización: productos bespoke fieles a tu marca."
+      }
     ]
   }
 }

@@ -64,29 +64,41 @@
         "name": "Spirits",
         "description": "Bottiglie e chiusure per case di spirits e distillerie.",
         "image": "/images/sector-spirits.jpg",
-        "imageAlt": "Bicchiere da whisky lavorato su un tavolo in legno"
-      },
-      {
-        "name": "Gastronomia",
-        "description": "Contenitori in vetro per gastronomia fine e prodotti gourmet.",
-        "image": "/images/sector-food.jpg",
-        "imageAlt": "Bottiglie d'olio d'oliva in vetro con tappo in sughero"
+        "imageAlt": "Bottiglia di spirits in vetro scuro con capsula color bronzo"
       },
       {
         "name": "Vino",
         "description": "Bottiglie, tappi e capsule per cantine e case vinicole.",
         "image": "/images/sector-wine.jpg",
         "imageAlt": "Bottiglie di vino con capsula adagiate in una cantina"
+      },
+      {
+        "name": "Gastronomia",
+        "description": "Contenitori in vetro per specialità gastronomiche e prodotti gourmet.",
+        "image": "/images/sector-food.jpg",
+        "imageAlt": "Bottiglie d'olio d'oliva in vetro con tappo in sughero"
       }
     ]
   },
   "families": {
     "heading": "Le nostre famiglie di prodotto",
     "items": [
-      { "name": "Tappi", "description": "Tappi e sistemi di chiusura, di ogni tipo: bartop, a vite, versatori, riduttori." },
-      { "name": "Vetro", "description": "Componenti vetro: bottiglie e flaconi, formati standard o su misura." },
-      { "name": "Capsule termoretraibili", "description": "Capsule PVC termoretraibili e sovratappi, per una finitura netta." },
-      { "name": "Decorazione & personalizzazione", "description": "Serigrafia, doratura, laccatura: creiamo prodotti bespoke a immagine del tuo marchio." }
+      {
+        "name": "Vetro",
+        "description": "Componenti vetro: bottiglie e flaconi, formati standard o su misura."
+      },
+      {
+        "name": "Tappi",
+        "description": "Tappi e sistemi di chiusura: bartop, teste in legno, a vite, versatori, riduttori."
+      },
+      {
+        "name": "Capsule",
+        "description": "Capsule PVC termoretraibili e sovratappi, per una finitura netta."
+      },
+      {
+        "name": "Design & décor",
+        "description": "Serigrafia, doratura, laccatura, personalizzazione: prodotti bespoke all'immagine del tuo marchio."
+      }
     ]
   }
 }

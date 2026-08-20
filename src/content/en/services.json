@@ -26,26 +26,26 @@
     "heading": "Our product families",
     "items": [
       {
-        "title": "Closures",
-        "description": "Closures and stoppering systems, all types: bartops, screw caps, pourers, reducers.",
-        "image": "/images/family-closures.jpg",
-        "imageAlt": "Loose cork stoppers"
-      },
-      {
-        "title": "Glass components",
-        "description": "Bottles and flacons, standard or bespoke formats, in a wide range of colours and finishes.",
+        "title": "Glass",
+        "description": "Glass components: bottles and flacons, standard or bespoke formats.",
         "image": "/images/family-glass.jpg",
         "imageAlt": "Green glass bottle on a neutral background"
       },
       {
-        "title": "Shrink capsules",
+        "title": "Closures",
+        "description": "Closures and stoppering systems: bartops, wood tops, screw caps, pourers, reducers.",
+        "image": "/images/family-closures.jpg",
+        "imageAlt": "Loose cork stoppers"
+      },
+      {
+        "title": "Capsules",
         "description": "Shrink PVC capsules and overcaps, for a clean finish.",
         "image": "/images/family-capsules.jpg",
         "imageAlt": "Bronze capsule on the neck of a dark bottle"
       },
       {
-        "title": "Decoration & customization",
-        "description": "Screen printing, gilding, lacquering: we create bespoke products in your brand's image.",
+        "title": "Design & decoration",
+        "description": "Screen printing, gilding, lacquering, customization: bespoke products true to your brand.",
         "image": "/images/family-decoration.jpg",
         "imageAlt": "Sculpted, customized glass flacons"
       }

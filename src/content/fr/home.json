@@ -64,29 +64,41 @@
         "name": "Spiritueux",
         "description": "Bouteilles et bouchage pour maisons de spiritueux et distilleries.",
         "image": "/images/sector-spirits.jpg",
-        "imageAlt": "Verre à whisky ciselé sur une table en bois"
-      },
-      {
-        "name": "Gastronomie",
-        "description": "Contenants en verre pour l'épicerie fine et les produits gourmets.",
-        "image": "/images/sector-food.jpg",
-        "imageAlt": "Bouteilles d'huile d'olive en verre avec bouchon liège"
+        "imageAlt": "Bouteille de spiritueux en verre sombre coiffée d'une capsule bronze"
       },
       {
         "name": "Vin",
         "description": "Bouteilles, bouchons et capsules pour caves et maisons de vin.",
         "image": "/images/sector-wine.jpg",
         "imageAlt": "Bouteilles de vin coiffées de capsules dans une cave"
+      },
+      {
+        "name": "Gastronomie",
+        "description": "Contenants en verre pour l'épicerie fine et les produits gourmets.",
+        "image": "/images/sector-food.jpg",
+        "imageAlt": "Bouteilles d'huile d'olive en verre avec bouchon liège"
       }
     ]
   },
   "families": {
     "heading": "Nos familles de produits",
     "items": [
-      { "name": "Bouchons", "description": "Bouchons et systèmes de fermeture, tous types : bartops, à vis, verseurs, réducteurs." },
-      { "name": "Verre", "description": "Composants verre : bouteilles et flacons, formats standard ou sur-mesure." },
-      { "name": "Capsules thermorétractables", "description": "Capsules PVC thermorétractables et surbouchages, pour une finition nette." },
-      { "name": "Décor & personnalisation", "description": "Sérigraphie, dorure, laquage : nous créons des produits bespoke à l'image de votre marque." }
+      {
+        "name": "Verre",
+        "description": "Composants verre : bouteilles et flacons, formats standard ou sur-mesure."
+      },
+      {
+        "name": "Bouchons",
+        "description": "Bouchons et systèmes de fermeture : bartops, têtes bois, à vis, verseurs, réducteurs."
+      },
+      {
+        "name": "Capsules",
+        "description": "Capsules PVC thermorétractables et surbouchages, pour une finition nette."
+      },
+      {
+        "name": "Design & décor",
+        "description": "Sérigraphie, dorure, laquage, personnalisation : des produits bespoke à l'image de votre marque."
+      }
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "seoTitle": "NOVERA · Premium packaging for spirits, wine and food",
+  "seoTitle": "NOVERA · Premium packaging for spirits, wine and gourmet food",
   "seoDescription": "Premium packaging sourcing & supply partner: glass, closures, capsules. We connect your brand to the finest European manufacturers.",
   "hero": {
     "eyebrow": "NOVERA",
@@ -64,29 +64,41 @@
         "name": "Spirits",
         "description": "Bottles and closures for spirits houses and distilleries.",
         "image": "/images/sector-spirits.jpg",
-        "imageAlt": "Cut whisky glass on a wooden table"
-      },
-      {
-        "name": "Gourmet food",
-        "description": "Glass containers for fine grocery and gourmet products.",
-        "image": "/images/sector-food.jpg",
-        "imageAlt": "Glass olive oil bottles with cork stoppers"
+        "imageAlt": "Dark glass spirits bottle topped with a bronze capsule"
       },
       {
         "name": "Wine",
-        "description": "Bottles, closures and capsules for wineries and wine houses.",
+        "description": "Bottles, corks and capsules for wineries and wine houses.",
         "image": "/images/sector-wine.jpg",
         "imageAlt": "Capsule-topped wine bottles resting in a cellar"
+      },
+      {
+        "name": "Gourmet food",
+        "description": "Glass containers for fine food and gourmet products.",
+        "image": "/images/sector-food.jpg",
+        "imageAlt": "Glass olive oil bottles with cork stoppers"
       }
     ]
   },
   "families": {
     "heading": "Our product families",
     "items": [
-      { "name": "Closures", "description": "Closures and stoppering systems, all types: bartops, screw caps, pourers, reducers." },
-      { "name": "Glass", "description": "Glass components: bottles and flacons, standard or bespoke formats." },
-      { "name": "Shrink capsules", "description": "Shrink PVC capsules and overcaps, for a clean finish." },
-      { "name": "Decoration & customization", "description": "Screen printing, gilding, lacquering: we create bespoke products in your brand's image." }
+      {
+        "name": "Glass",
+        "description": "Glass components: bottles and flacons, standard or bespoke formats."
+      },
+      {
+        "name": "Closures",
+        "description": "Closures and stoppering systems: bartops, wood tops, screw caps, pourers, reducers."
+      },
+      {
+        "name": "Capsules",
+        "description": "Shrink PVC capsules and overcaps, for a clean finish."
+      },
+      {
+        "name": "Design & decoration",
+        "description": "Screen printing, gilding, lacquering, customization: bespoke products true to your brand."
+      }
     ]
   }
 }

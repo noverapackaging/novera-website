@@ -26,26 +26,26 @@
     "heading": "Nuestras familias de producto",
     "items": [
       {
-        "title": "Tapones",
-        "description": "Tapones y sistemas de cierre, de todo tipo: bartops, de rosca, vertedores, reductores.",
-        "image": "/images/family-closures.jpg",
-        "imageAlt": "Tapones de corcho sueltos"
-      },
-      {
-        "title": "Componentes de vidrio",
-        "description": "Botellas y frascos, formatos estándar o a medida, en una amplia gama de colores y acabados.",
+        "title": "Vidrio",
+        "description": "Componentes de vidrio: botellas y frascos, formatos estándar o a medida.",
         "image": "/images/family-glass.jpg",
         "imageAlt": "Botella de vidrio verde sobre fondo neutro"
       },
       {
-        "title": "Cápsulas termorretráctiles",
+        "title": "Tapones",
+        "description": "Tapones y sistemas de cierre: bartops, cabezas de madera, de rosca, vertedores, reductores.",
+        "image": "/images/family-closures.jpg",
+        "imageAlt": "Tapones de corcho sueltos"
+      },
+      {
+        "title": "Cápsulas",
         "description": "Cápsulas de PVC termorretráctiles y sobretapas, para un acabado limpio.",
         "image": "/images/family-capsules.jpg",
         "imageAlt": "Cápsula color bronce en el cuello de una botella oscura"
       },
       {
-        "title": "Decoración y personalización",
-        "description": "Serigrafía, dorado, lacado: creamos productos bespoke a imagen de tu marca.",
+        "title": "Diseño y decoración",
+        "description": "Serigrafía, dorado, lacado, personalización: productos bespoke fieles a tu marca.",
         "image": "/images/family-decoration.jpg",
         "imageAlt": "Frascos de vidrio labrado y personalizado"
       }
