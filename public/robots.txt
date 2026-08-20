@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://novera.netlify.app/sitemap-index.xml
+Sitemap: https://sensational-salamander-a5f064.netlify.app/sitemap-index.xml

@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 // Full public URL of the live site. Update this after you connect your
 // Netlify domain (see README) so the sitemap and SEO tags are correct.
-const SITE_URL = 'https://novera.netlify.app';
+const SITE_URL = 'https://sensational-salamander-a5f064.netlify.app';
 
 export default defineConfig({
   site: SITE_URL,
