@@ -55,7 +55,7 @@
   "story": {
     "text": "Todo comienza con la materia. De la arena nace el vidrio, del vidrio la botella, el objeto que lleva una marca.",
     "image": "/images/story-sand.jpg",
-    "imageAlt": "Duna de arena bajo una luz cálida"
+    "imageAlt": "Arena fina cayendo sobre piedra clara, junto a fragmentos de vidrio en bruto"
   },
   "sectors": {
     "heading": "Sectores que atendemos",
@@ -64,19 +64,19 @@
         "name": "Espirituosos",
         "description": "Botellas y cierres para casas de espirituosos y destilerías.",
         "image": "/images/sector-spirits.jpg",
-        "imageAlt": "Botellas de gin de vidrio mate con tapón de corcho"
+        "imageAlt": "Botella de espirituosos de vidrio transparente con tapón de corcho, sobre piedra"
       },
       {
         "name": "Vino",
         "description": "Botellas, tapones y cápsulas para bodegas y casas de vino.",
         "image": "/images/sector-wine.jpg",
-        "imageAlt": "Botellas de vino con cápsula reposando en una bodega"
+        "imageAlt": "Botellas de vino de vidrio verde tumbadas sobre madera envejecida, una con cápsula color bronce"
       },
       {
         "name": "Gourmet",
         "description": "Botellas, tarros y frascos de vidrio para delicatessen y productos de alta gama.",
         "image": "/images/sector-food.jpg",
-        "imageAlt": "Botellas de aceite de oliva de vidrio con tapón de corcho"
+        "imageAlt": "Tarros de vidrio y una botella de aceite verde sobre lino, con luz natural"
       }
     ]
   },

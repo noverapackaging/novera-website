@@ -29,25 +29,25 @@
         "title": "Vetro",
         "description": "Componenti vetro: bottiglie e flaconi, formati standard o su misura.",
         "image": "/images/family-glass.jpg",
-        "imageAlt": "Bottiglia in vetro verde su fondo neutro"
+        "imageAlt": "Macro del collo e della spalla di una bottiglia in vetro trasparente su fondo verde profondo"
       },
       {
         "title": "Tappi",
         "description": "Tappi e sistemi di chiusura: bartop, teste in legno, a vite, versatori, riduttori.",
         "image": "/images/family-closures.jpg",
-        "imageAlt": "Tappi di sughero sfusi"
+        "imageAlt": "Tappo con testa in legno, tappo in sughero e capsula a vite metallica posati sulla pietra"
       },
       {
         "title": "Capsule",
         "description": "Capsule PVC termoretraibili e sovratappi, per una finitura netta.",
         "image": "/images/family-capsules.jpg",
-        "imageAlt": "Capsula color bronzo sul collo di una bottiglia scura"
+        "imageAlt": "Capsula termoretraibile color bronzo calzata sul collo di una bottiglia, testa in legno sopra"
       },
       {
         "title": "Design & décor",
         "description": "Serigrafia, doratura, laccatura, personalizzazione: prodotti bespoke all'immagine del tuo marchio.",
         "image": "/images/family-decoration.jpg",
-        "imageAlt": "Flaconi in vetro lavorato e personalizzato"
+        "imageAlt": "Macro di un vetro lavorato in rilievo, ravvivato da filetti dorati"
       }
     ]
   },

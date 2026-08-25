@@ -55,7 +55,7 @@
   "story": {
     "text": "Tutto comincia dalla materia. Dalla sabbia nasce il vetro, dal vetro la bottiglia, l'oggetto che porta un marchio.",
     "image": "/images/story-sand.jpg",
-    "imageAlt": "Duna di sabbia in una luce calda"
+    "imageAlt": "Sabbia fine che scorre su una pietra chiara, accanto a frammenti di vetro grezzo"
   },
   "sectors": {
     "heading": "I settori che serviamo",
@@ -64,19 +64,19 @@
         "name": "Spirits",
         "description": "Bottiglie e chiusure per case di spirits e distillerie.",
         "image": "/images/sector-spirits.jpg",
-        "imageAlt": "Bottiglie di gin in vetro opaco con tappo in sughero"
+        "imageAlt": "Bottiglia di spirits in vetro trasparente chiusa con tappo in sughero, posata sulla pietra"
       },
       {
         "name": "Vino",
         "description": "Bottiglie, tappi e capsule per cantine e case vinicole.",
         "image": "/images/sector-wine.jpg",
-        "imageAlt": "Bottiglie di vino con capsula adagiate in una cantina"
+        "imageAlt": "Bottiglie di vino in vetro verde adagiate su legno antico, una con capsula color bronzo"
       },
       {
         "name": "Gourmet",
         "description": "Bottiglie, vasetti e flaconi in vetro per i prodotti di alta gamma.",
         "image": "/images/sector-food.jpg",
-        "imageAlt": "Bottiglie d'olio d'oliva in vetro con tappo in sughero"
+        "imageAlt": "Vasetti in vetro e bottiglia d'olio verde su tovaglia di lino, in luce naturale"
       }
     ]
   },

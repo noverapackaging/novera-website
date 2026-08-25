@@ -55,7 +55,7 @@
   "story": {
     "text": "Tout commence par la matière. Du sable naît le verre, du verre naît la bouteille, l'objet qui porte une marque.",
     "image": "/images/story-sand.jpg",
-    "imageAlt": "Dune de sable sous une lumière chaude"
+    "imageAlt": "Du sable fin s'écoule sur une pierre claire, à côté de morceaux de verre brut"
   },
   "sectors": {
     "heading": "Les secteurs que nous servons",
@@ -64,19 +64,19 @@
         "name": "Spiritueux",
         "description": "Bouteilles et bouchage pour maisons de spiritueux et distilleries.",
         "image": "/images/sector-spirits.jpg",
-        "imageAlt": "Bouteilles de gin en verre mat avec bouchon liège"
+        "imageAlt": "Bouteille de spiritueux en verre clair fermée par un bouchon liège, posée sur la pierre"
       },
       {
         "name": "Vin",
         "description": "Bouteilles, bouchons et capsules pour caves et maisons de vin.",
         "image": "/images/sector-wine.jpg",
-        "imageAlt": "Bouteilles de vin coiffées de capsules dans une cave"
+        "imageAlt": "Bouteilles de vin en verre vert couchées sur un bois ancien, l'une coiffée d'une capsule bronze"
       },
       {
         "name": "Épicerie fine",
         "description": "Bouteilles, bocaux et flacons en verre pour les produits gourmets.",
         "image": "/images/sector-food.jpg",
-        "imageAlt": "Bouteilles d'huile d'olive en verre avec bouchon liège"
+        "imageAlt": "Bocaux en verre et flacon d'huile vert sur une nappe de lin, en lumière naturelle"
       }
     ]
   },
