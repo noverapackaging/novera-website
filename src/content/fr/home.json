@@ -15,15 +15,15 @@
     "items": [
       {
         "label": "MATERIALS",
-        "description": "La matière, notre point d'origine. Du sable naît le verre, du verre naît la bouteille : nous maîtrisons la chaîne, du grain au produit fini."
+        "description": "La matière est notre point d'origine. Du sable naît le verre, du verre naît la bouteille : nous maîtrisons cette chaîne, du grain au produit fini."
       },
       {
         "label": "DESIGN",
-        "description": "L'exigence esthétique et le détail, au service de chaque marque. Formats, finitions, personnalisation : nous donnons corps à votre identité."
+        "description": "Nous mettons l'exigence esthétique et le souci du détail au service de chaque marque. Formats, finitions, personnalisation : votre identité prend corps."
       },
       {
         "label": "SOLUTIONS",
-        "description": "Un service de bout en bout : sourcing, design, logistique. Un seul interlocuteur pour tout votre packaging."
+        "description": "Sourcing, design, logistique : nous couvrons toute la chaîne, et vous n'avez qu'un seul interlocuteur pour tout votre packaging."
       }
     ]
   },
@@ -32,22 +32,22 @@
     "items": [
       {
         "title": "International",
-        "description": "Un réseau global de partenaires de confiance, une présence locale.",
+        "description": "Un réseau mondial de partenaires de confiance, doublé d'une présence locale.",
         "icon": "globe"
       },
       {
         "title": "Excellence",
-        "description": "Des produits premium, sélectionnés avec exigence, un service sur-mesure.",
+        "description": "Des produits premium sélectionnés avec exigence, et un service taillé sur mesure.",
         "icon": "star"
       },
       {
         "title": "Réactivité",
-        "description": "Une réponse rapide et fiable à chaque étape : notre avantage de partenaire agile.",
+        "description": "Une réponse rapide et fiable à chaque étape : c'est l'avantage d'un partenaire agile.",
         "icon": "bolt"
       },
       {
         "title": "Durabilité",
-        "description": "Des choix responsables, pour un avenir durable.",
+        "description": "Des choix responsables aujourd'hui, pour un avenir durable.",
         "icon": "leaf"
       }
     ]

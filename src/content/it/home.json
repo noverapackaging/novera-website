@@ -15,15 +15,15 @@
     "items": [
       {
         "label": "MATERIALS",
-        "description": "La materia, il nostro punto d'origine. Dalla sabbia nasce il vetro, dal vetro la bottiglia: governiamo la filiera, dal granello al prodotto finito."
+        "description": "La materia è il nostro punto d'origine. Dalla sabbia nasce il vetro, dal vetro la bottiglia: governiamo questa filiera, dal granello al prodotto finito."
       },
       {
         "label": "DESIGN",
-        "description": "Rigore estetico e cura del dettaglio, al servizio di ogni marchio. Formati, finiture, personalizzazione: diamo forma alla tua identità."
+        "description": "Mettiamo rigore estetico e cura del dettaglio al servizio di ogni marchio. Formati, finiture, personalizzazione: la tua identità prende forma."
       },
       {
         "label": "SOLUTIONS",
-        "description": "Un servizio end-to-end: sourcing, design, logistica. Un unico interlocutore per tutto il tuo packaging."
+        "description": "Sourcing, design, logistica: copriamo tutta la filiera, e tu hai un unico interlocutore per tutto il packaging."
       }
     ]
   },
@@ -32,22 +32,22 @@
     "items": [
       {
         "title": "International",
-        "description": "Una rete globale di partner affidabili, con presenza locale.",
+        "description": "Una rete globale di partner affidabili, unita a una presenza locale.",
         "icon": "globe"
       },
       {
         "title": "Excellence",
-        "description": "Prodotti premium, selezionati con esigenza, un servizio su misura.",
+        "description": "Prodotti premium selezionati con esigenza, e un servizio costruito su misura.",
         "icon": "star"
       },
       {
         "title": "Reattività",
-        "description": "Una risposta rapida e affidabile a ogni passo: il vantaggio di un partner agile.",
+        "description": "Una risposta rapida e affidabile a ogni passo: è il vantaggio di un partner agile.",
         "icon": "bolt"
       },
       {
         "title": "Sostenibilità",
-        "description": "Scelte responsabili, per un futuro sostenibile.",
+        "description": "Scelte responsabili oggi, per un futuro sostenibile.",
         "icon": "leaf"
       }
     ]

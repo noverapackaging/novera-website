@@ -15,15 +15,15 @@
     "items": [
       {
         "label": "MATERIALS",
-        "description": "La materia, nuestro punto de origen. De la arena nace el vidrio, del vidrio la botella: dominamos la cadena, del grano al producto acabado."
+        "description": "La materia es nuestro punto de origen. De la arena nace el vidrio, del vidrio la botella: dominamos esa cadena, del grano al producto acabado."
       },
       {
         "label": "DESIGN",
-        "description": "Rigor estético y detalle, al servicio de cada marca. Formatos, acabados, personalización: damos forma a tu identidad."
+        "description": "Ponemos el rigor estético y el cuidado del detalle al servicio de cada marca. Formatos, acabados, personalización: tu identidad toma forma."
       },
       {
         "label": "SOLUTIONS",
-        "description": "Un servicio integral: sourcing, diseño, logística. Un único interlocutor para todo tu packaging."
+        "description": "Sourcing, diseño, logística: cubrimos toda la cadena, y tú tratas con un único interlocutor para todo tu packaging."
       }
     ]
   },
@@ -32,22 +32,22 @@
     "items": [
       {
         "title": "Internacional",
-        "description": "Una red global de socios de confianza, con presencia local.",
+        "description": "Una red global de socios de confianza, unida a una presencia local.",
         "icon": "globe"
       },
       {
         "title": "Excelencia",
-        "description": "Productos premium, seleccionados con exigencia, un servicio a medida.",
+        "description": "Productos premium seleccionados con exigencia, y un servicio hecho a medida.",
         "icon": "star"
       },
       {
         "title": "Reactividad",
-        "description": "Una respuesta rápida y fiable en cada etapa: la ventaja de un partner ágil.",
+        "description": "Una respuesta rápida y fiable en cada etapa: esa es la ventaja de un partner ágil.",
         "icon": "bolt"
       },
       {
         "title": "Sostenibilidad",
-        "description": "Decisiones responsables, para un futuro sostenible.",
+        "description": "Decisiones responsables hoy, para un futuro sostenible.",
         "icon": "leaf"
       }
     ]
