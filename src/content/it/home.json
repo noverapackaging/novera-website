@@ -1,10 +1,10 @@
 {
-  "seoTitle": "NOVERA · Packaging premium per spirits, vino e gastronomia",
+  "seoTitle": "NOVERA · Packaging premium per spirits, vino e gourmet",
   "seoDescription": "Sourcing & supply partner nel packaging premium: vetro, tappi, capsule. Colleghiamo il tuo marchio ai migliori produttori europei.",
   "hero": {
     "eyebrow": "NOVERA",
     "headline": "Il packaging che valorizza il tuo marchio.",
-    "intro": "NOVERA è il tuo sourcing & supply partner nel packaging premium. Colleghiamo i marchi di spirits, vino e gastronomia ai migliori vetrai e produttori europei.",
+    "intro": "NOVERA è il tuo sourcing & supply partner nel packaging premium. Colleghiamo i marchi di spirits, vino e gourmet ai migliori vetrai e produttori europei.",
     "ctaLabel": "Contattaci",
     "ctaHref": "/it/services/#contact",
     "image": "/images/hero-bottle.jpg",
@@ -73,8 +73,8 @@
         "imageAlt": "Bottiglie di vino con capsula adagiate in una cantina"
       },
       {
-        "name": "Gastronomia",
-        "description": "Contenitori in vetro per specialità gastronomiche e prodotti gourmet.",
+        "name": "Gourmet",
+        "description": "Bottiglie, vasetti e flaconi in vetro per i prodotti di alta gamma.",
         "image": "/images/sector-food.jpg",
         "imageAlt": "Bottiglie d'olio d'oliva in vetro con tappo in sughero"
       }

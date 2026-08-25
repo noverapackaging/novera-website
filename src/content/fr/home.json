@@ -1,10 +1,10 @@
 {
-  "seoTitle": "NOVERA · Packaging premium pour spiritueux, vin et gastronomie",
+  "seoTitle": "NOVERA · Packaging premium pour spiritueux, vin et épicerie fine",
   "seoDescription": "Sourcing & supply partner en packaging premium : verre, bouchons, capsules. Nous relions votre marque aux meilleurs fabricants européens.",
   "hero": {
     "eyebrow": "NOVERA",
     "headline": "Le packaging qui élève votre marque.",
-    "intro": "NOVERA est votre sourcing & supply partner en packaging premium. Nous relions les marques de spiritueux, vin et gastronomie aux meilleurs verriers et fabricants européens.",
+    "intro": "NOVERA est votre sourcing & supply partner en packaging premium. Nous relions les marques de spiritueux, vin et épicerie fine aux meilleurs verriers et fabricants européens.",
     "ctaLabel": "Nous contacter",
     "ctaHref": "/fr/services/#contact",
     "image": "/images/hero-bottle.jpg",
@@ -73,8 +73,8 @@
         "imageAlt": "Bouteilles de vin coiffées de capsules dans une cave"
       },
       {
-        "name": "Gastronomie",
-        "description": "Contenants en verre pour l'épicerie fine et les produits gourmets.",
+        "name": "Épicerie fine",
+        "description": "Bouteilles, bocaux et flacons en verre pour les produits gourmets.",
         "image": "/images/sector-food.jpg",
         "imageAlt": "Bouteilles d'huile d'olive en verre avec bouchon liège"
       }

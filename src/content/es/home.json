@@ -1,10 +1,10 @@
 {
-  "seoTitle": "NOVERA · Packaging premium para espirituosos, vino y gastronomía",
+  "seoTitle": "NOVERA · Packaging premium para espirituosos, vino y gourmet",
   "seoDescription": "Partner de sourcing y suministro en packaging premium: vidrio, tapones, cápsulas. Conectamos tu marca con los mejores fabricantes europeos.",
   "hero": {
     "eyebrow": "NOVERA",
     "headline": "El packaging que eleva tu marca.",
-    "intro": "NOVERA es tu partner de sourcing y suministro en packaging premium. Conectamos las marcas de espirituosos, vino y gastronomía con los mejores vidrieros y fabricantes europeos.",
+    "intro": "NOVERA es tu partner de sourcing y suministro en packaging premium. Conectamos las marcas de espirituosos, vino y gourmet con los mejores vidrieros y fabricantes europeos.",
     "ctaLabel": "Contáctanos",
     "ctaHref": "/es/services/#contact",
     "image": "/images/hero-bottle.jpg",
@@ -73,8 +73,8 @@
         "imageAlt": "Botellas de vino con cápsula reposando en una bodega"
       },
       {
-        "name": "Gastronomía",
-        "description": "Envases de vidrio para delicatessen y productos gourmet.",
+        "name": "Gourmet",
+        "description": "Botellas, tarros y frascos de vidrio para delicatessen y productos de alta gama.",
         "image": "/images/sector-food.jpg",
         "imageAlt": "Botellas de aceite de oliva de vidrio con tapón de corcho"
       }
