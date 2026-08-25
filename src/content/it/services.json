@@ -3,22 +3,22 @@
   "seoDescription": "Dalla specifica alla consegna: sourcing, design e logistica. Un unico partner per tutto il packaging premium.",
   "hero": {
     "heading": "I nostri servizi",
-    "intro": "Un accompagnamento end-to-end, dalla definizione dell'esigenza alla consegna. Un unico partner per tutto il tuo packaging."
+    "intro": "Ti seguiamo dall'inizio alla fine, dalla definizione dell'esigenza fino alla consegna — un unico partner per tutto il tuo packaging."
   },
   "process": {
     "heading": "Dalla fonte alla soluzione",
     "items": [
       {
         "title": "Sourcing",
-        "description": "Individuiamo il produttore giusto per ogni specifica, inclusi formati e chiusure introvabili altrove. Consolidi i fornitori e guadagni coerenza."
+        "description": "Per ogni capitolato individuiamo il produttore giusto, compresi i formati e le chiusure che altrove non si trovano. Così accorpi i fornitori e guadagni coerenza su tutta la gamma."
       },
       {
         "title": "Design",
-        "description": "Schede tecniche, BAT, personalizzazione, posizionamento del logo: definiamo ogni dettaglio prima della produzione, per un risultato perfetto già dal primo lotto."
+        "description": "Dalle schede tecniche al BAT, dalla personalizzazione al posizionamento del logo, definiamo ogni dettaglio prima di andare in produzione. Il primo lotto è già quello giusto."
       },
       {
         "title": "Logistica",
-        "description": "Gestiamo trasporto, dogana e consegna, con possibilità di stock cuscinetto e consegne a richiesta. Sei sempre puntuale, senza immobilizzare cassa."
+        "description": "Gestiamo trasporto, dogana e consegna, e se serve teniamo uno stock cuscinetto che liberiamo su richiesta. Arrivi sempre puntuale, senza immobilizzare cassa."
       }
     ]
   },

@@ -3,22 +3,22 @@
   "seoDescription": "De la especificación a la entrega: sourcing, diseño y logística. Un único partner para todo tu packaging premium.",
   "hero": {
     "heading": "Nuestros servicios",
-    "intro": "Un acompañamiento integral, desde la definición de la necesidad hasta la entrega. Un único partner para todo tu packaging."
+    "intro": "Te acompañamos de principio a fin, desde la definición de la necesidad hasta la entrega — un único partner para todo tu packaging."
   },
   "process": {
     "heading": "De la fuente a la solución",
     "items": [
       {
         "title": "Sourcing",
-        "description": "Identificamos el fabricante adecuado para cada especificación, incluidos formatos y cierres que no encontrarás en otro sitio. Consolidas proveedores y ganas coherencia."
+        "description": "Para cada pliego identificamos el fabricante adecuado, incluidos los formatos y cierres que no se encuentran en otro sitio. Así reúnes a tus proveedores y ganas coherencia en toda tu gama."
       },
       {
         "title": "Diseño",
-        "description": "Fichas técnicas, pruebas, personalización, posicionamiento del logo: definimos cada detalle antes de producir, para un resultado perfecto desde el primer lote."
+        "description": "De las fichas técnicas a las pruebas, de la personalización al posicionamiento del logo, definimos cada detalle antes de entrar en producción. Tu primer lote ya es el bueno."
       },
       {
         "title": "Logística",
-        "description": "Gestionamos transporte, aduana y entrega, con posibilidad de stock regulador y envíos a demanda. Siempre a tiempo, sin inmovilizar tesorería."
+        "description": "Gestionamos el transporte, la aduana y la entrega, y si hace falta mantenemos un stock regulador que liberamos a demanda. Siempre recibes a tiempo, sin inmovilizar tu tesorería."
       }
     ]
   },

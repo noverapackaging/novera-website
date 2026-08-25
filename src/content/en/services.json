@@ -3,22 +3,22 @@
   "seoDescription": "From specification to delivery: sourcing, design and logistics. A single partner for all your premium packaging.",
   "hero": {
     "heading": "Our services",
-    "intro": "End-to-end support, from defining the need to delivery. A single partner for your entire packaging."
+    "intro": "We support you from end to end, from defining the brief through to delivery — a single partner for your entire packaging."
   },
   "process": {
     "heading": "From source to solution",
     "items": [
       {
         "title": "Sourcing",
-        "description": "We identify the right manufacturer for every specification, including formats and closures you won't find elsewhere. You consolidate suppliers and gain consistency."
+        "description": "For every specification, we find the manufacturer that fits, including the formats and closures you won't find anywhere else. You consolidate your suppliers and gain consistency across your whole range."
       },
       {
         "title": "Design",
-        "description": "Technical sheets, proofs, customization, logo placement: we frame every detail before production, for a perfect result from the first batch."
+        "description": "From technical sheets to proofs, from customization to logo placement, we settle every detail before production begins. Your first batch is already the right one."
       },
       {
         "title": "Logistics",
-        "description": "We manage transport, customs and delivery, with buffer stock and on-demand shipments available. You are always on time, without tying up cash."
+        "description": "We handle transport, customs and delivery, and can hold buffer stock that we release on demand. You are always delivered on time, without tying up your cash."
       }
     ]
   },

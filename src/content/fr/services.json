@@ -3,22 +3,22 @@
   "seoDescription": "De la spécification à la livraison : sourcing, design et logistique. Un seul partenaire pour tout votre packaging premium.",
   "hero": {
     "heading": "Nos services",
-    "intro": "Un accompagnement de bout en bout, de la définition du besoin à la livraison. Un seul partenaire pour l'ensemble de votre packaging."
+    "intro": "Nous vous accompagnons de bout en bout, de la définition du besoin jusqu'à la livraison — un seul partenaire pour l'ensemble de votre packaging."
   },
   "process": {
     "heading": "De la source à la solution",
     "items": [
       {
         "title": "Sourcing",
-        "description": "Nous identifions le bon fabricant pour chaque spécification, y compris les formats et fermetures introuvables ailleurs. Vous consolidez vos fournisseurs et gagnez en cohérence."
+        "description": "Pour chaque cahier des charges, nous identifions le fabricant qui convient, y compris pour les formats et les fermetures introuvables ailleurs. Vous consolidez ainsi vos fournisseurs et gagnez en cohérence sur toute votre gamme."
       },
       {
         "title": "Design",
-        "description": "Fiches techniques, BAT, personnalisation, positionnement du logo : nous cadrons chaque détail avant production, pour un résultat parfait dès le premier lot."
+        "description": "Des fiches techniques au BAT, de la personnalisation au positionnement du logo, nous cadrons chaque détail avant la production. Votre premier lot est déjà le bon."
       },
       {
         "title": "Logistique",
-        "description": "Nous pilotons transport, douane et livraison, avec possibilité de stock tampon et livraisons à la demande. Vous êtes toujours à l'heure, sans immobiliser de trésorerie."
+        "description": "Nous pilotons le transport, la douane et la livraison, et gardons si besoin un stock tampon que nous libérons à la demande. Vous êtes toujours livré à temps, sans immobiliser votre trésorerie."
       }
     ]
   },
